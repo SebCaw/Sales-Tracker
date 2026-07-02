@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" data-page="tracker">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sales Degree Apprenticeship Tracker</title>
+<meta name="description" content="Live tracker for Level 6 degree apprenticeships in sales, business development and commercial roles at 10 major UK employers - auto-updated from GOV.UK three times daily.">
+<meta property="og:title" content="Sales Degree Apprenticeship Tracker">
+<meta property="og:description" content="Live tracker for Level 6 degree apprenticeships in sales, business development and commercial roles at 10 major UK employers - auto-updated from GOV.UK three times daily.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:url" content="https://sebcaw.github.io/sales-tracker/tracker.html">
+<meta property="og:image" content="https://sebcaw.github.io/sales-tracker/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://sebcaw.github.io/sales-tracker/assets/og-image.png">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..500&family=Geist:wght@300..700&family=Geist+Mono:wght@400..600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/tracker.css">
+<script src="assets/theme.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Sales Degree Apprenticeship Tracker</h1>
+    <div class="head-right">
+      <div class="updated"><span class="pulse" id="pulse"></span><span id="updatedTxt">&mdash;</span></div>
+      <div class="theme-toggle" role="group" aria-label="Colour theme">
+        <button data-theme-btn="light" aria-label="Light mode">Light</button>
+        <button data-theme-btn="dark" aria-label="Dark mode">Dark</button>
+      </div>
+      <a class="aboutbtn" href="index.html">About me</a>
+    </div>
+  </header>
+  <p class="sub">Level 6 degree apprenticeships &middot; sales, business development &amp; commercial roles &middot; 10 target employers &middot; GOV.UK checked three times daily (9am, 1pm &amp; 4pm)</p>
+
+  <details class="about">
+    <summary>About this project</summary>
+    <div class="about-body">
+      <p>A live dashboard that automatically tracks <strong>Level 6 degree apprenticeships</strong> in sales, business development and commercial roles at 10 major employers (Microsoft, Amazon, Salesforce, IBM, Cisco and more).</p>
+      <p>A scheduled job runs in the cloud <strong>three times a day</strong>, scrapes the UK Government's official <em>Find an Apprenticeship</em> register, filters out technical roles, flags large-employer opportunities worth a look, and updates this page &mdash; so new openings surface the moment they go live.</p>
+      <p><strong>Built with:</strong> HTML/CSS/JavaScript front-end &middot; GitHub Actions for scheduled cloud scraping &middot; GOV.UK data &middot; hosted on GitHub Pages. Your application progress is saved privately in your own browser.</p>
+    </div>
+  </details>
+
+  <div class="new-banner" id="newBanner">
+    <span id="newBannerTxt"></span>
+    <button onclick="dismissNew()">Got it</button>
+  </div>
+
+  <div class="summary" id="summary"></div>
+
+  <div class="filters">
+    <div><label>Closing within</label>
+      <select id="closingFilter">
+        <option value="any">Any</option>
+        <option value="7">7 days</option>
+        <option value="14">14 days</option>
+        <option value="30">30 days</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <div class="charts">
+    <div class="chart"><h3>Opportunity status</h3><div id="statusChart"></div></div>
+    <div class="chart"><h3>My application funnel</h3><div id="funnelChart"></div></div>
+  </div>
+
+  <div class="timeline">
+    <h2>Typical application windows</h2>
+    <div class="tl-grid" id="timeline"></div>
+  </div>
+
+  <div class="interest" id="interestSection">
+    <h2>Other live openings</h2>
+    <p class="interest-sub">Other live Level 6 degree apprenticeships at large companies &mdash; sales, commercial &amp; business development roles &mdash; found on GOV.UK that aren't on your core list.</p>
+    <div id="interestList"></div>
+  </div>
+
+  <div class="footer">
+    GOV.UK checked three times daily via an automated cloud job. Data refreshes when you reopen this tab.<br>
+    Built by Sebastian Cawthorne &middot; 2026
+  </div>
+</div>
+
+<script>window.DATA_FILE = "data.json";</script>
+<script src="assets/tracker.js"></script>
+</body>
+</html>

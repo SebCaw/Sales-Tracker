@@ -1,0 +1,567 @@
+{
+    "meta":  {
+                 "lastUpdated":  "2026-06-30T19:42:37Z",
+                 "version":  4,
+                 "seenVacancyIds":  [
+
+                                    ],
+                 "newSinceLastScrape":  [
+
+                                        ]
+             },
+    "interestListings":  [
+
+                         ],
+    "companies":  [
+                      {
+                          "id":  "microsoft",
+                          "name":  "Microsoft",
+                          "sector":  "sales",
+                          "color":  "#0067b8",
+                          "employerNameVariants":  [
+                                                       "Microsoft",
+                                                       "Microsoft Limited",
+                                                       "Microsoft UK"
+                                                   ],
+                          "careerUrl":  "https://careers.microsoft.com/v2/global/en/uk-apprenticeships.html",
+                          "govSearchUrl":  "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=Microsoft\u0026levelIds=6\u0026distanceType=England",
+                          "historicalCycles":  [
+                                                   {
+                                                       "year":  2025,
+                                                       "openedMonth":  9,
+                                                       "closedMonth":  11
+                                                   },
+                                                   {
+                                                       "year":  2024,
+                                                       "openedMonth":  9,
+                                                       "closedMonth":  11
+                                                   }
+                                               ],
+                          "programs":  [
+                                           {
+                                               "id":  "microsoft_sales",
+                                               "name":  "Sales \u0026 Customer Success",
+                                               "standard":  "Level 6",
+                                               "location":  "London / Reading",
+                                               "salary":  "~£26,000",
+                                               "duration":  "3 years",
+                                               "status":  "not_open",
+                                               "closingDate":  null,
+                                               "applyUrl":  null,
+                                               "govVacancyId":  null,
+                                               "firstSeen":  null,
+                                               "lastSeen":  null
+                                           },
+                                           {
+                                               "id":  "microsoft_business",
+                                               "name":  "Business \u0026 Operations",
+                                               "standard":  "Level 6",
+                                               "location":  "Reading",
+                                               "salary":  "~£26,000",
+                                               "duration":  "3 years",
+                                               "status":  "not_open",
+                                               "closingDate":  null,
+                                               "applyUrl":  null,
+                                               "govVacancyId":  null,
+                                               "firstSeen":  null,
+                                               "lastSeen":  null
+                                           }
+                                       ]
+                      },
+                      {
+                          "id":  "ibm",
+                          "name":  "IBM",
+                          "sector":  "sales",
+                          "color":  "#0530ad",
+                          "employerNameVariants":  [
+                                                       "IBM United Kingdom Limited",
+                                                       "IBM UK",
+                                                       "IBM"
+                                                   ],
+                          "careerUrl":  "https://www.ibm.com/uk-en/employment/uk-early-professional/apprenticeship/",
+                          "govSearchUrl":  "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=IBM\u0026levelIds=6\u0026distanceType=England",
+                          "historicalCycles":  [
+                                                   {
+                                                       "year":  2025,
+                                                       "openedMonth":  9,
+                                                       "closedMonth":  12
+                                                   },
+                                                   {
+                                                       "year":  2024,
+                                                       "openedMonth":  9,
+                                                       "closedMonth":  12
+                                                   }
+                                               ],
+                          "programs":  [
+                                           {
+                                               "id":  "ibm_sales",
+                                               "name":  "Sales \u0026 Client Engagement",
+                                               "standard":  "Level 6",
+                                               "location":  "Multiple UK",
+                                               "salary":  "~£24,000",
+                                               "duration":  "3 years",
+                                               "status":  "not_open",
+                                               "closingDate":  null,
+                                               "applyUrl":  null,
+                                               "govVacancyId":  null,
+                                               "firstSeen":  null,
+                                               "lastSeen":  null
+                                           },
+                                           {
+                                               "id":  "ibm_consulting",
+                                               "name":  "Business Consulting",
+                                               "standard":  "Level 6",
+                                               "location":  "Multiple UK",
+                                               "salary":  "~£24,000",
+                                               "duration":  "4 years",
+                                               "status":  "not_open",
+                                               "closingDate":  null,
+                                               "applyUrl":  null,
+                                               "govVacancyId":  null,
+                                               "firstSeen":  null,
+                                               "lastSeen":  null
+                                           }
+                                       ]
+                      },
+                      {
+                          "id":  "salesforce",
+                          "name":  "Salesforce",
+                          "sector":  "sales",
+                          "color":  "#00a1e0",
+                          "employerNameVariants":  [
+                                                       "Salesforce.com UK",
+                                                       "Salesforce UK",
+                                                       "Salesforce"
+                                                   ],
+                          "careerUrl":  "https://www.salesforce.com/uk/company/careers/university-recruiting/",
+                          "govSearchUrl":  "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=Salesforce\u0026levelIds=6\u0026distanceType=England",
+                          "historicalCycles":  [
+                                                   {
+                                                       "year":  2025,
+                                                       "openedMonth":  10,
+                                                       "closedMonth":  1
+                                                   },
+                                                   {
+                                                       "year":  2024,
+                                                       "openedMonth":  10,
+                                                       "closedMonth":  1
+                                                   }
+                                               ],
+                          "programs":  [
+                                           {
+                                               "id":  "salesforce_bdr",
+                                               "name":  "Sales / Business Development",
+                                               "standard":  "Level 6",
+                                               "location":  "London",
+                                               "salary":  "~£25,000",
+                                               "duration":  "3 years",
+                                               "status":  "not_open",
+                                               "closingDate":  null,
+                                               "applyUrl":  null,
+                                               "govVacancyId":  null,
+                                               "firstSeen":  null,
+                                               "lastSeen":  null
+                                           },
+                                           {
+                                               "id":  "salesforce_cs",
+                                               "name":  "Customer Success",
+                                               "standard":  "Level 6",
+                                               "location":  "London",
+                                               "salary":  "~£25,000",
+                                               "duration":  "3 years",
+                                               "status":  "not_open",
+                                               "closingDate":  null,
+                                               "applyUrl":  null,
+                                               "govVacancyId":  null,
+                                               "firstSeen":  null,
+                                               "lastSeen":  null
+                                           }
+                                       ]
+                      },
+                      {
+                          "id":  "amazon",
+                          "name":  "Amazon",
+                          "sector":  "sales",
+                          "color":  "#ff9900",
+                          "employerNameVariants":  [
+                                                       "Amazon UK Services Ltd",
+                                                       "Amazon Web Services",
+                                                       "Amazon"
+                                                   ],
+                          "careerUrl":  "https://www.amazon.jobs/en-gb/business_categories/student-programs",
+                          "govSearchUrl":  "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=Amazon\u0026levelIds=6\u0026distanceType=England",
+                          "historicalCycles":  [
+                                                   {
+                                                       "year":  2025,
+                                                       "openedMonth":  9,
+                                                       "closedMonth":  10
+                                                   },
+                                                   {
+                                                       "year":  2024,
+                                                       "openedMonth":  9,
+                                                       "closedMonth":  10
+                                                   }
+                                               ],
+                          "programs":  [
+                                           {
+                                               "id":  "amazon_business",
+                                               "name":  "Business \u0026 Operations Management",
+                                               "standard":  "Level 6",
+                                               "location":  "London / Multiple UK",
+                                               "salary":  "~£27,000",
+                                               "duration":  "3 years",
+                                               "status":  "not_open",
+                                               "closingDate":  null,
+                                               "applyUrl":  null,
+                                               "govVacancyId":  null,
+                                               "firstSeen":  null,
+                                               "lastSeen":  null
+                                           },
+                                           {
+                                               "id":  "amazon_account",
+                                               "name":  "Account Management (AWS)",
+                                               "standard":  "Level 6",
+                                               "location":  "London",
+                                               "salary":  "~£27,000",
+                                               "duration":  "3 years",
+                                               "status":  "not_open",
+                                               "closingDate":  null,
+                                               "applyUrl":  null,
+                                               "govVacancyId":  null,
+                                               "firstSeen":  null,
+                                               "lastSeen":  null
+                                           }
+                                       ]
+                      },
+                      {
+                          "id":  "oracle",
+                          "name":  "Oracle",
+                          "sector":  "sales",
+                          "color":  "#c74634",
+                          "employerNameVariants":  [
+                                                       "Oracle Corporation UK Limited",
+                                                       "Oracle UK",
+                                                       "Oracle"
+                                                   ],
+                          "careerUrl":  "https://www.oracle.com/uk/careers/students-grads/",
+                          "govSearchUrl":  "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=Oracle\u0026levelIds=6\u0026distanceType=England",
+                          "historicalCycles":  [
+                                                   {
+                                                       "year":  2025,
+                                                       "openedMonth":  10,
+                                                       "closedMonth":  12
+                                                   },
+                                                   {
+                                                       "year":  2024,
+                                                       "openedMonth":  10,
+                                                       "closedMonth":  12
+                                                   }
+                                               ],
+                          "programs":  [
+                                           {
+                                               "id":  "oracle_sales",
+                                               "name":  "Sales \u0026 Business Development",
+                                               "standard":  "Level 6",
+                                               "location":  "Reading / London",
+                                               "salary":  "~£24,000",
+                                               "duration":  "3 years",
+                                               "status":  "not_open",
+                                               "closingDate":  null,
+                                               "applyUrl":  null,
+                                               "govVacancyId":  null,
+                                               "firstSeen":  null,
+                                               "lastSeen":  null
+                                           },
+                                           {
+                                               "id":  "oracle_cs",
+                                               "name":  "Customer Success",
+                                               "standard":  "Level 6",
+                                               "location":  "Reading",
+                                               "salary":  "~£24,000",
+                                               "duration":  "3 years",
+                                               "status":  "not_open",
+                                               "closingDate":  null,
+                                               "applyUrl":  null,
+                                               "govVacancyId":  null,
+                                               "firstSeen":  null,
+                                               "lastSeen":  null
+                                           }
+                                       ]
+                      },
+                      {
+                          "id":  "sap",
+                          "name":  "SAP",
+                          "sector":  "sales",
+                          "color":  "#0faaff",
+                          "employerNameVariants":  [
+                                                       "SAP UK Limited",
+                                                       "SAP (UK) Limited",
+                                                       "SAP"
+                                                   ],
+                          "careerUrl":  "https://www.sap.com/uk/about/careers/students-and-graduates.html",
+                          "govSearchUrl":  "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=SAP\u0026levelIds=6\u0026distanceType=England",
+                          "historicalCycles":  [
+                                                   {
+                                                       "year":  2025,
+                                                       "openedMonth":  9,
+                                                       "closedMonth":  11
+                                                   },
+                                                   {
+                                                       "year":  2024,
+                                                       "openedMonth":  9,
+                                                       "closedMonth":  11
+                                                   }
+                                               ],
+                          "programs":  [
+                                           {
+                                               "id":  "sap_sales",
+                                               "name":  "Sales \u0026 Business Development",
+                                               "standard":  "Level 6",
+                                               "location":  "Feltham / London",
+                                               "salary":  "~£25,000",
+                                               "duration":  "3 years",
+                                               "status":  "not_open",
+                                               "closingDate":  null,
+                                               "applyUrl":  null,
+                                               "govVacancyId":  null,
+                                               "firstSeen":  null,
+                                               "lastSeen":  null
+                                           },
+                                           {
+                                               "id":  "sap_cust",
+                                               "name":  "Customer Engagement",
+                                               "standard":  "Level 6",
+                                               "location":  "Feltham",
+                                               "salary":  "~£25,000",
+                                               "duration":  "3 years",
+                                               "status":  "not_open",
+                                               "closingDate":  null,
+                                               "applyUrl":  null,
+                                               "govVacancyId":  null,
+                                               "firstSeen":  null,
+                                               "lastSeen":  null
+                                           }
+                                       ]
+                      },
+                      {
+                          "id":  "cisco",
+                          "name":  "Cisco",
+                          "sector":  "sales",
+                          "color":  "#1ba0d7",
+                          "employerNameVariants":  [
+                                                       "Cisco Systems",
+                                                       "Cisco International",
+                                                       "Cisco"
+                                                   ],
+                          "careerUrl":  "https://www.cisco.com/c/en/us/about/careers/we-are-cisco/early-in-career.html",
+                          "govSearchUrl":  "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=Cisco\u0026levelIds=6\u0026distanceType=England",
+                          "historicalCycles":  [
+                                                   {
+                                                       "year":  2025,
+                                                       "openedMonth":  9,
+                                                       "closedMonth":  11
+                                                   },
+                                                   {
+                                                       "year":  2024,
+                                                       "openedMonth":  9,
+                                                       "closedMonth":  11
+                                                   }
+                                               ],
+                          "programs":  [
+                                           {
+                                               "id":  "cisco_sales",
+                                               "name":  "Sales \u0026 Customer Success",
+                                               "standard":  "Level 6",
+                                               "location":  "Feltham / London",
+                                               "salary":  "~£24,000",
+                                               "duration":  "3 years",
+                                               "status":  "not_open",
+                                               "closingDate":  null,
+                                               "applyUrl":  null,
+                                               "govVacancyId":  null,
+                                               "firstSeen":  null,
+                                               "lastSeen":  null
+                                           },
+                                           {
+                                               "id":  "cisco_bd",
+                                               "name":  "Business Development",
+                                               "standard":  "Level 6",
+                                               "location":  "London",
+                                               "salary":  "~£24,000",
+                                               "duration":  "3 years",
+                                               "status":  "not_open",
+                                               "closingDate":  null,
+                                               "applyUrl":  null,
+                                               "govVacancyId":  null,
+                                               "firstSeen":  null,
+                                               "lastSeen":  null
+                                           }
+                                       ]
+                      },
+                      {
+                          "id":  "vodafone",
+                          "name":  "Vodafone",
+                          "sector":  "sales",
+                          "color":  "#e60000",
+                          "employerNameVariants":  [
+                                                       "Vodafone Limited",
+                                                       "Vodafone UK",
+                                                       "Vodafone"
+                                                   ],
+                          "careerUrl":  "https://careers.vodafone.com/early-careers/",
+                          "govSearchUrl":  "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=Vodafone\u0026levelIds=6\u0026distanceType=England",
+                          "historicalCycles":  [
+                                                   {
+                                                       "year":  2025,
+                                                       "openedMonth":  10,
+                                                       "closedMonth":  1
+                                                   },
+                                                   {
+                                                       "year":  2024,
+                                                       "openedMonth":  10,
+                                                       "closedMonth":  1
+                                                   }
+                                               ],
+                          "programs":  [
+                                           {
+                                               "id":  "vodafone_comm",
+                                               "name":  "Commercial \u0026 Sales",
+                                               "standard":  "Level 6",
+                                               "location":  "Newbury / London",
+                                               "salary":  "~£23,000",
+                                               "duration":  "3 years",
+                                               "status":  "not_open",
+                                               "closingDate":  null,
+                                               "applyUrl":  null,
+                                               "govVacancyId":  null,
+                                               "firstSeen":  null,
+                                               "lastSeen":  null
+                                           },
+                                           {
+                                               "id":  "vodafone_cust",
+                                               "name":  "Customer Operations",
+                                               "standard":  "Level 6",
+                                               "location":  "Newbury",
+                                               "salary":  "~£23,000",
+                                               "duration":  "3 years",
+                                               "status":  "not_open",
+                                               "closingDate":  null,
+                                               "applyUrl":  null,
+                                               "govVacancyId":  null,
+                                               "firstSeen":  null,
+                                               "lastSeen":  null
+                                           }
+                                       ]
+                      },
+                      {
+                          "id":  "bt",
+                          "name":  "BT Group",
+                          "sector":  "sales",
+                          "color":  "#5514b4",
+                          "employerNameVariants":  [
+                                                       "BT Group plc",
+                                                       "British Telecommunications",
+                                                       "BT"
+                                                   ],
+                          "careerUrl":  "https://www.bt.com/careers/early-careers/apprentices",
+                          "govSearchUrl":  "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=BT+Group\u0026levelIds=6\u0026distanceType=England",
+                          "historicalCycles":  [
+                                                   {
+                                                       "year":  2025,
+                                                       "openedMonth":  10,
+                                                       "closedMonth":  12
+                                                   },
+                                                   {
+                                                       "year":  2024,
+                                                       "openedMonth":  10,
+                                                       "closedMonth":  12
+                                                   }
+                                               ],
+                          "programs":  [
+                                           {
+                                               "id":  "bt_sales",
+                                               "name":  "Sales \u0026 Business",
+                                               "standard":  "Level 6",
+                                               "location":  "Multiple UK",
+                                               "salary":  "~£22,000",
+                                               "duration":  "3 years",
+                                               "status":  "not_open",
+                                               "closingDate":  null,
+                                               "applyUrl":  null,
+                                               "govVacancyId":  null,
+                                               "firstSeen":  null,
+                                               "lastSeen":  null
+                                           },
+                                           {
+                                               "id":  "bt_comm",
+                                               "name":  "Commercial \u0026 Customer",
+                                               "standard":  "Level 6",
+                                               "location":  "London",
+                                               "salary":  "~£22,000",
+                                               "duration":  "3 years",
+                                               "status":  "not_open",
+                                               "closingDate":  null,
+                                               "applyUrl":  null,
+                                               "govVacancyId":  null,
+                                               "firstSeen":  null,
+                                               "lastSeen":  null
+                                           }
+                                       ]
+                      },
+                      {
+                          "id":  "unilever",
+                          "name":  "Unilever",
+                          "sector":  "sales",
+                          "color":  "#1f36c7",
+                          "employerNameVariants":  [
+                                                       "Unilever UK",
+                                                       "Unilever U.K. Central Resources",
+                                                       "Unilever"
+                                                   ],
+                          "careerUrl":  "https://www.unilever.co.uk/careers/graduates-and-students/",
+                          "govSearchUrl":  "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=Unilever\u0026levelIds=6\u0026distanceType=England",
+                          "historicalCycles":  [
+                                                   {
+                                                       "year":  2025,
+                                                       "openedMonth":  9,
+                                                       "closedMonth":  11
+                                                   },
+                                                   {
+                                                       "year":  2024,
+                                                       "openedMonth":  9,
+                                                       "closedMonth":  11
+                                                   }
+                                               ],
+                          "programs":  [
+                                           {
+                                               "id":  "unilever_comm",
+                                               "name":  "Commercial \u0026 Sales",
+                                               "standard":  "Level 6",
+                                               "location":  "Leatherhead / London",
+                                               "salary":  "~£24,000",
+                                               "duration":  "3 years",
+                                               "status":  "not_open",
+                                               "closingDate":  null,
+                                               "applyUrl":  null,
+                                               "govVacancyId":  null,
+                                               "firstSeen":  null,
+                                               "lastSeen":  null
+                                           },
+                                           {
+                                               "id":  "unilever_biz",
+                                               "name":  "Business Management",
+                                               "standard":  "Level 6",
+                                               "location":  "Port Sunlight",
+                                               "salary":  "~£24,000",
+                                               "duration":  "4 years",
+                                               "status":  "not_open",
+                                               "closingDate":  null,
+                                               "applyUrl":  null,
+                                               "govVacancyId":  null,
+                                               "firstSeen":  null,
+                                               "lastSeen":  null
+                                           }
+                                       ]
+                      }
+                  ]
+}

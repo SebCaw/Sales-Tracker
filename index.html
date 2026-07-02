@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" data-page="about">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About me — Sebastian Cawthorne</title>
+<meta name="description" content="About Sebastian Cawthorne — Year 12 student pursuing a Level 6 degree apprenticeship in technology sales.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sebcaw.github.io/sales-tracker/">
+<meta property="og:title" content="Sebastian Cawthorne — Technology Sales">
+<meta property="og:description" content="Year 12 student pursuing a Level 6 degree apprenticeship in technology sales.">
+<meta property="og:image" content="https://sebcaw.github.io/sales-tracker/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sebastian Cawthorne — Technology Sales">
+<meta name="twitter:description" content="Year 12 student pursuing a Level 6 degree apprenticeship in technology sales.">
+<meta name="twitter:image" content="https://sebcaw.github.io/sales-tracker/assets/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..500&family=Geist:wght@300..700&family=Geist+Mono:wght@400..600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/about.css">
+<script src="assets/theme.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="shell">
+
+  <!-- LEFT — sticky identity panel (own background, separated by a border) -->
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+      <div class="brand">
+        <span class="mark">SC</span>
+        <div class="theme-toggle" role="group" aria-label="Colour theme">
+          <button data-theme-btn="light" aria-label="Light mode">Light</button>
+          <button data-theme-btn="dark" aria-label="Dark mode">Dark</button>
+        </div>
+      </div>
+
+      <div class="identity">
+        <h1>Sebastian<br>Cawthorne</h1>
+        <p class="headline">Year 12 student pursuing a <strong>Level 6 degree apprenticeship</strong> in technology sales.</p>
+      </div>
+
+      <nav class="rail" aria-label="Sections">
+        <a href="#summary"><span class="rn">01</span><span class="rlabel">Summary</span></a>
+        <a href="#projects"><span class="rn">02</span><span class="rlabel">Projects</span></a>
+        <a href="#experience"><span class="rn">03</span><span class="rlabel">Experience</span></a>
+        <a href="#epq"><span class="rn">04</span><span class="rlabel">EPQ</span></a>
+        <a href="#presentations"><span class="rn">05</span><span class="rlabel">Presentations</span></a>
+        <a href="#contact"><span class="rn">06</span><span class="rlabel">Contact</span></a>
+      </nav>
+
+      <div class="side-foot">
+        <div class="side-links">
+          <a href="tracker.html">Apprenticeship tracker &rarr;</a>
+          <a href="https://github.com/SebCaw" target="_blank">GitHub &nearr;</a>
+        </div>
+        <p class="side-copy">Sebastian Cawthorne &middot; 2026</p>
+      </div>
+    </div>
+  </aside>
+
+  <!-- RIGHT — scrolling content -->
+  <main class="main" id="main" tabindex="-1">
+    <div class="content">
+
+      <!-- 1 — SUMMARY -->
+      <section class="section" id="summary">
+        <div class="eyebrow"><span class="num">01</span> &middot; Summary</div>
+        <h2>A bit about me</h2>
+        <p class="lead">I'm a Year 12 student from Cheshire with a genuine curiosity about the world and a habit of throwing myself into things. Outside of school I play hockey for Deeside Ramblers, carry a camera pretty much everywhere, and find excuses to get out on the golf course or up a hill whenever I can. I'm currently working towards my DofE Gold, which has pushed me to think seriously about leadership, endurance, and what I'm actually capable of. I care about doing things properly, whether that's a sport, a project, or a conversation.</p>
+        <div class="skills">
+          <span>Storytelling</span><span>Curiosity</span><span>Commitment</span><span>Calmness</span><span>AI</span><span>Teamwork</span><span>Leadership</span>
+        </div>
+      </section>
+
+      <!-- 2 — PROJECTS I'VE BUILT USING AI -->
+      <section class="section" id="projects">
+        <div class="eyebrow"><span class="num">02</span> &middot; Built using AI</div>
+        <h2>Projects I've built using AI</h2>
+
+        <div class="embed-card">
+          <div class="embed-head">
+            <h3>Apprenticeship Tracker</h3>
+            <div class="embed-head-actions">
+              <button class="embed-toggle" aria-expanded="true" aria-controls="trackerFrameWrap">Hide live tracker</button>
+              <a class="openbtn" href="tracker.html" target="_blank">Open full tracker &nearr;</a>
+            </div>
+          </div>
+          <p class="proj-sub">Personal Project</p>
+          <p class="embed-desc">Without this tracker I'd have had to check each company's jobs page by hand every day to stay on top of new openings &mdash; slow, and easy to miss things. So I built a tracker that automatically checks the government apprenticeship register three times a day for the technology companies I'm targeting (Microsoft, Amazon, Salesforce, IBM and more), filters out the roles that don't fit, and surfaces new relevant listings &mdash; with the role details &mdash; within hours of them going live. Instead of finding out days late, I can act on a new opening almost as soon as it appears. It's set up to send me a Telegram alert the moment the scraper spots one, so I don't even need to open the page to know. Built using HTML, JavaScript and PowerShell, with a lot of help from AI tools to bring it together given I'm not a developer by background.</p>
+          <div class="embed-frame-wrap" id="trackerFrameWrap">
+            <iframe class="embed-frame" src="tracker.html" title="Live degree apprenticeship tracker" loading="lazy"></iframe>
+          </div>
+          <div class="tags">
+            <span>HTML</span><span>JavaScript</span><span>PowerShell</span><span>Telegram API</span><span>AI-assisted build</span>
+          </div>
+          <!-- GITHUB LINK pending — once supplied, add a links row here -->
+          <div class="links" style="margin-top:14px">
+            <a href="#" id="trackerGithub">GitHub link to follow</a>
+          </div>
+        </div>
+
+        <div class="project">
+          <h3>School AI Literacy Initiative</h3>
+          <p class="proj-sub">Student Leadership Team &middot; The Grange School</p>
+          <p>Leading a student-driven project to reshape the Year 9 curriculum to include AI literacy and responsible usage, giving younger students the foundations to engage with AI thoughtfully before it becomes unavoidable. Phase one has been approved and is already underway. Phase two is the ambitious stretch goal: identify the strongest students from the programme, take them into a local charity, and apply their AI skills to solve a real problem for that organisation and implement a working solution. The pitch for phase two is coming soon.</p>
+          <div class="tags">
+            <span>AI literacy</span><span>Curriculum design</span><span>Student leadership</span><span>Real-world impact</span>
+          </div>
+        </div>
+
+        <div class="project">
+          <h3>Factory AI Automation</h3>
+          <p class="proj-sub">Foresters</p>
+          <p>Working with Foresters to gradually introduce AI into their production process. The factory currently uses four manual steps to decide how incoming chickens are processed and where they go in the facility. The goal is to automate three of those steps entirely. As a first phase, I introduced Claude to the office team and have been getting staff comfortable using AI tools for day-to-day tasks like analysing data from spreadsheets, building the foundations before the harder automation work begins. The full automation piece is in progress and due to be completed before Christmas 2025.</p>
+          <div class="tags">
+            <span>AI adoption</span><span>Process automation</span><span>Staff training</span><span>Claude</span><span>Real-world deployment</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3 — EXPERIENCE -->
+      <section class="section" id="experience">
+        <div class="eyebrow"><span class="num">03</span> &middot; Experience</div>
+        <h2>My real-life experiences</h2>
+        <div class="tl">
+          <div class="tl-item">
+            <div class="role">Work Experience &middot; Foresters</div>
+            <div class="when">Summer 2024</div>
+            <p>Three and a half weeks working across multiple areas of a live food production facility, including raw chicken processing, cooked chicken handling and the box room, going wherever I was needed on any given day. Starting at 6am and spending full shifts on physically demanding, repetitive tasks teaches you something about yourself that classroom work simply can't. In one shift alone I defrosted 2.5 tons of chicken. It wasn't glamorous, but showing up every day, keeping focus and getting the job done regardless of the task is exactly the kind of work ethic I carry into everything else I do.</p>
+          </div>
+          <div class="tl-item">
+            <div class="role">Work Experience &middot; Microsoft</div>
+            <div class="when">April 2026</div>
+            <p>Two days embedded within Microsoft's enterprise sales team, sitting in on internal meetings, shadowing account executives and taking part in a live sales exercise where I built and delivered a pitch using Microsoft tools to a real Microsoft employee. It gave me a genuine insight into how sales works at scale inside one of the world's largest technology companies.</p>
+          </div>
+          <div class="tl-item">
+            <div class="role">Work Experience &middot; Databricks</div>
+            <div class="when">April 2026</div>
+            <p>Three days working within Databricks' enterprise sales team, including shadowing client conversations and delivering a mock sales pitch to a real Databricks employee. The highlight was an external pitch to the Executive Technology and Data Leader at Kellogg's, where I presented a real business case for scaling their data infrastructure across 50 manufacturing sites. Pitching to a senior executive at a global brand on behalf of a real company was a challenge I learned a huge amount from.</p>
+          </div>
+          <div class="tl-item todo">
+            <div class="role">Work Experience &middot; IBM</div>
+            <div class="when">Date to confirm</div>
+            <p class="placeholder">To be completed after the placement &mdash; send me the dates and a couple of sentences on what you did and I'll write it up.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4 — EPQ -->
+      <section class="section" id="epq">
+        <div class="eyebrow"><span class="num">04</span> &middot; EPQ</div>
+        <h2>My EPQ</h2>
+        <p class="epq-q">To what extent will sectors change with the mass introduction of AI?</p>
+
+        <div class="pullquote">
+          <q>The most valuable people will be those who can ask good questions, spot weak answers, communicate clearly, adapt quickly and use human judgement.</q>
+          <span class="cite">&mdash; Finance Director, primary survey 2026</span>
+        </div>
+
+        <p>This EPQ examines how far different sectors should change in response to AI, drawing on academic research, Goldman Sachs economic modelling, and a primary survey of 57 professionals across business, healthcare, law, education and finance. The core argument is that AI will reshape most sectors rather than simply replacing them, but the pace and nature of change will vary significantly depending on the role and how ready people are to adapt. The sectors facing the most urgent change are education, which is still built around memorisation, and the military, where autonomous weapons raise serious ethical questions that current international law has no answer for.</p>
+
+        <p><strong>Primary research:</strong> I designed and ran an independent survey of 57 professionals across business, finance, healthcare, law, education and sales to build a real-world evidence base alongside the academic sources. More responses are being collected and results will be updated.</p>
+
+        <div class="statgrid">
+          <div class="statcard"><div class="sn">57</div><div class="sl">professionals surveyed across 8+ sectors</div></div>
+          <div class="statcard"><div class="sn">96%</div><div class="sl">said repetitive admin roles are most at risk</div></div>
+          <div class="statcard"><div class="sn">93%</div><div class="sl">said companies should train staff to use AI (not one said no)</div></div>
+          <div class="statcard"><div class="sn">79%</div><div class="sl">are very or extremely concerned about AI without human oversight</div></div>
+        </div>
+
+        <div class="keyfind">Communication and critical thinking ranked <strong>above</strong> AI skills as what employers actually want.</div>
+
+        <span class="grade todo">Grade: to be confirmed</span>
+
+        <div class="deck" style="margin-top:18px">
+          <div class="deck-bar">
+            <span class="dtitle"><span class="dicon"></span> Full EPQ essay</span>
+            <span class="deck-actions">
+              <a class="openbtn" href="decks/epq-essay.pdf" target="_blank">Read full essay &nearr;</a>
+              <a class="dl" href="decks/epq-essay.pdf" download>Download PDF</a>
+            </span>
+          </div>
+          <iframe class="doc-frame" src="decks/epq-essay.pdf#view=FitH" title="EPQ full essay" loading="lazy"></iframe>
+        </div>
+      </section>
+
+      <!-- 5 — SALES PRESENTATIONS -->
+      <section class="section" id="presentations">
+        <div class="eyebrow"><span class="num">05</span> &middot; Sales presentations</div>
+        <h2>My sales presentations</h2>
+
+        <div class="pres">
+          <h3>Presentation 01 &middot; Microsoft Internal</h3>
+          <p>A mock internal pitch delivered during my work experience at Microsoft, using the fictional Monsters University "Laugh Floor" as the client scenario. The brief was to identify operational inefficiencies at the Scream Factory following its conversion to laughs, and pitch a solution using Microsoft tools to improve automation, data pipelines and shift handovers. Presenting to a real Microsoft employee meant having to hold my own in front of someone who knew the product inside out.</p>
+          <p class="quote">"[Quote to follow]" &mdash; [Name], [Job Title], Microsoft</p>
+          <div class="deck">
+            <div class="deck-bar">
+              <span class="dtitle"><span class="dicon"></span> Monsters University pitch &middot; slides</span>
+              <span class="deck-actions">
+                <a class="openbtn" href="decks/microsoft-monsters-university.pdf" target="_blank">Open slides &nearr;</a>
+                <a class="dl" href="decks/microsoft-monsters-university.pdf" download>Download PDF</a>
+              </span>
+            </div>
+            <iframe class="deck-frame" src="decks/microsoft-monsters-university.pdf#toolbar=0&view=FitH" title="Microsoft Monsters University pitch slides" loading="lazy"></iframe>
+          </div>
+        </div>
+
+        <div class="pres">
+          <h3>Presentation 02 &middot; Databricks Internal</h3>
+          <p>A mock sales deck built and delivered during my time at Databricks, pitching Databricks capabilities to a fictional financial services client. It covered data governance, AI readiness and automating data pipelines, giving me hands-on experience of how enterprise sales decks are structured and what a real pitch to a technical buyer looks like.</p>
+          <p class="quote">"[Quote to follow]" &mdash; [Name], [Job Title], Databricks</p>
+          <div class="deck">
+            <div class="deck-bar">
+              <span class="dtitle"><span class="dicon"></span> Relief Project &middot; slides</span>
+              <span class="deck-actions">
+                <a class="openbtn" href="decks/databricks-relief-project.pdf" target="_blank">Open slides &nearr;</a>
+                <a class="dl" href="decks/databricks-relief-project.pdf" download>Download PDF</a>
+              </span>
+            </div>
+            <iframe class="deck-frame" src="decks/databricks-relief-project.pdf#toolbar=0&view=FitH" title="Databricks Relief Project slides" loading="lazy"></iframe>
+          </div>
+        </div>
+
+        <div class="pres">
+          <h3>Presentation 03 &middot; External Pitch &mdash; Kellogg's</h3>
+          <p>A full enterprise pitch delivered to the Executive Technology and Data Leader at Kellogg's, built around a real business case. The pitch proposed scaling Kellogg's existing PI System data infrastructure across all 50 of their manufacturing sites using Databricks, with capabilities covering real-time analytics, predictive maintenance and AI readiness. The financial case was grounded in a $3.3M proven saving at a single site and projected 10 to 30% efficiency gains across the wider estate.</p>
+          <p class="quote">"[Quote to follow]" &mdash; [Name], Executive Technology and Data Leader, Kellogg's</p>
+          <div class="deck">
+            <div class="deck-bar">
+              <span class="dtitle"><span class="dicon"></span> Kellogg's enterprise pitch &middot; slides</span>
+              <span class="deck-actions">
+                <a class="openbtn" href="decks/kelloggs-pitch.pdf" target="_blank">Open slides &nearr;</a>
+                <a class="dl" href="decks/kelloggs-pitch.pdf" download>Download PDF</a>
+              </span>
+            </div>
+            <iframe class="deck-frame" src="decks/kelloggs-pitch.pdf#toolbar=0&view=FitH" title="Kellogg's enterprise pitch slides" loading="lazy"></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6 — CONTACT -->
+      <section class="section" id="contact">
+        <div class="eyebrow"><span class="num">06</span> &middot; Contact</div>
+        <h2>Get in touch</h2>
+        <p>The best way to reach me is through GitHub — happy to share more on any of the projects above.</p>
+        <div class="links">
+          <a href="https://github.com/SebCaw" target="_blank">View my GitHub &nearr;</a>
+          <!-- ADD MORE LINKS HERE (e.g. LinkedIn) -->
+        </div>
+      </section>
+
+    </div>
+  </main>
+</div>
+<script src="assets/about.js"></script>
+</body>
+</html>
