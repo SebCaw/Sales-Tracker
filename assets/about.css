@@ -140,6 +140,17 @@ a { color: var(--accent); text-decoration: none; }
 }
 .headline strong { color: var(--accent); font-weight: 500; }
 
+/* Prominent LinkedIn link under the headline */
+.li-link {
+  display: inline-flex; align-items: center; gap: 8px; margin-top: 18px;
+  font-size: 13.5px; font-weight: 600; color: var(--text);
+  background: var(--panel); border: 1px solid var(--border);
+  padding: 9px 16px; border-radius: 999px;
+  transition: border-color .2s, color .2s;
+}
+.li-link:hover { border-color: var(--accent); color: var(--accent); }
+.li-link svg { color: #0A66C2; flex-shrink: 0; }
+
 /* Nav rail */
 .rail { display: flex; flex-direction: column; gap: 2px; margin-bottom: 28px; position: relative; }
 /* Sliding indicator — glides to the section currently in view (positioned by about.js) */
