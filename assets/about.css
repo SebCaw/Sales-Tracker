@@ -446,7 +446,7 @@ a { color: var(--accent); text-decoration: none; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; }
-  .rail a, .links a, .openbtn, .skills span, .statcard, .side-links a, .rail-marker { transition: none; }
+  .rail a, .links a, .openbtn, .skills span, .statcard, .side-links a, .rail-marker, .sidebar { transition: none; }
 }
 
 /* ---------------- Print (clean CV-style output) ---------------- */
@@ -478,7 +478,10 @@ a { color: var(--accent); text-decoration: none; }
     border-right: none; border-bottom: 1px solid var(--border);
     backdrop-filter: blur(10px);
     background: color-mix(in srgb, var(--sidebar) 92%, transparent);
+    transition: transform .28s ease;
   }
+  /* Slides up out of the way on scroll-down; JS reveals it on scroll-up or at the top */
+  .sidebar.bar-hidden { transform: translateY(-100%); }
   .sidebar-inner { padding: 18px 24px; }
   .brand { margin-bottom: 16px; }
   .identity { margin-bottom: 18px; }

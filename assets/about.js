@@ -1,3 +1,26 @@
+// Mobile: hide the sticky top bar on scroll-down, reveal it on scroll-up or at the very top.
+(function () {
+  var sidebar = document.querySelector(".sidebar");
+  if (!sidebar) return;
+  var mq = window.matchMedia("(max-width: 860px)");
+  var lastY = window.scrollY || window.pageYOffset || 0;
+  function apply() {
+    var y = window.scrollY || window.pageYOffset || 0;
+    if (!mq.matches) {                     // desktop: the panel is always shown
+      sidebar.classList.remove("bar-hidden");
+    } else if (y <= 8) {                    // at the top: always visible
+      sidebar.classList.remove("bar-hidden");
+    } else if (y > lastY + 4 && y > 120) {  // scrolling down, past the bar: hide it
+      sidebar.classList.add("bar-hidden");
+    } else if (y < lastY - 4) {             // any upward scroll: bring it back
+      sidebar.classList.remove("bar-hidden");
+    }
+    lastY = y;
+  }
+  window.addEventListener("scroll", apply, { passive: true });
+  if (mq.addEventListener) mq.addEventListener("change", function () { sidebar.classList.remove("bar-hidden"); });
+})();
+
 // Sticky side-nav scroll-spy for the About page, with a sliding position marker.
 (function () {
   var sections = Array.prototype.slice.call(document.querySelectorAll(".section[id]"));
