@@ -10,7 +10,7 @@ $TECH = 'software|web develop|developer|programmer|data scien|data engineer|data
 # Always exclude these, however the rest of the title reads (core technical / data / cyber roles).
 $HARD_TECH = 'software|web develop|\bdeveloper\b|programmer|data scien|data engineer|data analy|\bdata\b|cyber|devops|network engineer|infrastructure engineer|cloud engineer'
 # A clear business / commercial / finance / consulting signal — keep the role however it is worded.
-$BIZ_SIGNAL = 'sales|account|business develop|relationship|commercial|client|partnership|customer|\bfinanc|\bbank|invest|wealth|capital market|consult|advis|strateg|audit|assur|\btax\b|market|procure|supply chain|corporate|business management|business admin|human resource|\bhr\b|\bmanagement\b'
+$BIZ_SIGNAL = 'sales|account|business|revenue|go-to-market|relationship|commercial|client|partnership|customer|\bfinanc|\bbank|invest|wealth|capital market|trading|broker|portfolio|asset manage|underwrit|actuar|insurance|pension|treasury|lending|mortgage|\bcredit|\brisk|complian|consult|advis|strateg|transformation|audit|assur|\btax\b|market|procure|supply chain|buyer|merchandis|negotiat|channel|corporate|human resource|\bhr\b|\bmanagement\b'
 $BIG  = 'microsoft|ibm|salesforce|amazon|oracle|\bsap\b|hsbc|barclays|goldman|jpmorgan|j\.p\. morgan|jp morgan|pwc|pricewaterhouse|deloitte|kpmg|ernst|\bey\b|accenture|capgemini|cognizant|infosys|tata|\btcs\b|bt group|\bbt\b|vodafone|\bsky\b|virgin media|\bo2\b|lloyds|natwest|santander|nationwide|standard chartered|aviva|legal & general|prudential|\baxa\b|allianz|zurich|morgan stanley|\bciti\b|bank of america|merrill|\bubs\b|deutsche bank|nomura|bnp paribas|schroders|fidelity|unilever|procter|nestle|coca-cola|pepsico|diageo|\bmars\b|johnson|\bgsk\b|glaxo|astrazeneca|pfizer|siemens|bosch|cisco|\bdell\b|\bhp\b|hewlett|intel|google|meta|apple|adobe|tesco|sainsbury|\basda\b|marks & spencer|m&s|john lewis|boots|\bbp\b|shell|centrica|national grid|rolls-royce|\bbae\b|airbus|jaguar|land rover|nissan|toyota|\bford\b|\bbmw\b|mercedes|volkswagen|network rail|royal mail|\bdhl\b|fedex|\bups\b|american express|\bamex\b|visa|mastercard|paypal|\bsage\b|softcat|computacenter'
 
 function Parse-CloseDate([string]$s) {
@@ -24,9 +24,9 @@ function Status-From([string]$iso) {
 }
 function Is-Technical([string]$title, [string]$course) {
   $t = ("$title $course").ToLower()
-  if ($t -match $HARD_TECH) { return $true }     # core tech / data / cyber — never wanted, however titled
-  if ($t -match $BIZ_SIGNAL) { return $false }   # clear business / finance / consulting signal — always keep
-  return $t -match $TECH                          # otherwise fall back to the broad technical screen
+  if ($t -match $BIZ_SIGNAL) { return $false }   # any sales/finance/consulting signal wins, even with a tech word (e.g. "Software Sales")
+  if ($t -match $HARD_TECH) { return $true }     # otherwise pure tech / data / cyber -> drop
+  return $t -match $TECH                          # broad technical screen for anything left
 }
 function Category-From([string]$title) {
   $t = $title.ToLower()
