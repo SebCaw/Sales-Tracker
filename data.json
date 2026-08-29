@@ -23,12 +23,22 @@
         {
           "year": 2025,
           "openedMonth": 9,
-          "closedMonth": 11
+          "closedMonth": 11,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "estimated",
+          "source": null
         },
         {
           "year": 2024,
           "openedMonth": 9,
-          "closedMonth": 11
+          "closedMonth": 11,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "estimated",
+          "source": null
         }
       ],
       "programs": [
@@ -83,13 +93,23 @@
       "historicalCycles": [
         {
           "year": 2025,
-          "openedMonth": 9,
-          "closedMonth": 12
+          "openedMonth": 6,
+          "closedMonth": 8,
+          "openedDate": null,
+          "closedDate": "2025-08-17",
+          "rolling": false,
+          "confidence": "confirmed",
+          "source": "https://uptree.co/opportunities/ibm/587171843/"
         },
         {
           "year": 2024,
-          "openedMonth": 9,
-          "closedMonth": 12
+          "openedMonth": 6,
+          "closedMonth": 8,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "estimated",
+          "source": "https://uptree.co/opportunities/ibm/587171843/"
         }
       ],
       "programs": [
@@ -161,13 +181,23 @@
       "historicalCycles": [
         {
           "year": 2025,
-          "openedMonth": 10,
-          "closedMonth": 1
+          "openedMonth": 9,
+          "closedMonth": 11,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "estimated",
+          "source": null
         },
         {
           "year": 2024,
-          "openedMonth": 10,
-          "closedMonth": 1
+          "openedMonth": 9,
+          "closedMonth": 11,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "estimated",
+          "source": null
         }
       ],
       "programs": [
@@ -222,13 +252,23 @@
       "historicalCycles": [
         {
           "year": 2025,
-          "openedMonth": 9,
-          "closedMonth": 10
+          "openedMonth": 2,
+          "closedMonth": 5,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "confirmed",
+          "source": "https://www.amazon.jobs/en-gb/landing_pages/apprentices"
         },
         {
           "year": 2024,
-          "openedMonth": 9,
-          "closedMonth": 10
+          "openedMonth": 2,
+          "closedMonth": 5,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "confirmed",
+          "source": "https://www.amazon.jobs/en-gb/landing_pages/apprentices"
         }
       ],
       "programs": [
@@ -266,13 +306,23 @@
       "historicalCycles": [
         {
           "year": 2025,
-          "openedMonth": 10,
-          "closedMonth": 12
+          "openedMonth": 9,
+          "closedMonth": 11,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "estimated",
+          "source": null
         },
         {
           "year": 2024,
-          "openedMonth": 10,
-          "closedMonth": 12
+          "openedMonth": 9,
+          "closedMonth": 11,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "estimated",
+          "source": null
         }
       ],
       "programs": [
@@ -328,12 +378,22 @@
         {
           "year": 2025,
           "openedMonth": 9,
-          "closedMonth": 11
+          "closedMonth": 11,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "estimated",
+          "source": null
         },
         {
           "year": 2024,
           "openedMonth": 9,
-          "closedMonth": 11
+          "closedMonth": 11,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "estimated",
+          "source": null
         }
       ],
       "programs": [
@@ -388,13 +448,23 @@
       "historicalCycles": [
         {
           "year": 2025,
-          "openedMonth": 9,
-          "closedMonth": 11
+          "openedMonth": 1,
+          "closedMonth": 4,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "confirmed",
+          "source": "https://jobs.cisco.com/jobs/EventDetailNL?projectId=1417536"
         },
         {
           "year": 2024,
-          "openedMonth": 9,
-          "closedMonth": 11
+          "openedMonth": 1,
+          "closedMonth": 4,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "confirmed",
+          "source": "https://jobs.cisco.com/jobs/EventDetailNL?projectId=1417536"
         }
       ],
       "programs": [
@@ -448,14 +518,24 @@
       "govSearchUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=Unilever&levelIds=6&distanceType=England",
       "historicalCycles": [
         {
-          "year": 2025,
-          "openedMonth": 9,
-          "closedMonth": 11
-        },
-        {
           "year": 2024,
           "openedMonth": 9,
-          "closedMonth": 11
+          "closedMonth": 11,
+          "openedDate": null,
+          "closedDate": "2024-11-08",
+          "rolling": false,
+          "confidence": "confirmed",
+          "source": "https://careers.unilever.com/en/uk-and-ireland-early-careers-apprenticeships"
+        },
+        {
+          "year": 2025,
+          "openedMonth": 9,
+          "closedMonth": 11,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "estimated",
+          "source": "https://careers.unilever.com/en/uk-and-ireland-early-careers-apprenticeships"
         }
       ],
       "programs": [

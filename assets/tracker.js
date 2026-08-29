@@ -1,5 +1,8 @@
-const MONTHS = ["Aug","Sep","Oct","Nov","Dec","Jan","Feb"];
-const MONTH_NUM = [8,9,10,11,12,1,2];
+// Full recruiting year. The old Aug-Feb window silently hid any company whose
+// cycle falls outside it - IBM closes in August and NatWest opens in March, so
+// both vanished from the timeline once real dates replaced the placeholders.
+const MONTHS = ["Aug","Sep","Oct","Nov","Dec","Jan","Feb","Mar","Apr","May","Jun","Jul"];
+const MONTH_NUM = [8,9,10,11,12,1,2,3,4,5,6,7];
 const STATUS_OPTS = ["watching","applied","interview","offer","rejected","not_applying"];
 const STATUS_LABEL = { watching:"Watching", applied:"Applied", interview:"Interview", offer:"Offer", rejected:"Rejected", not_applying:"Not applying" };
 
@@ -40,14 +43,26 @@ const BADGE_TXT = { open:"Open", closing_soon:"Closing soon", closed:"Closed", n
 
 // Predicted next opening from historical cycles
 function predictOpen(company){
-  if(!company.historicalCycles || !company.historicalCycles.length) return null;
-  const m = Math.round(company.historicalCycles.reduce((s,c)=>s+c.openedMonth,0)/company.historicalCycles.length);
+  const cyc = company.historicalCycles;
+  if(!cyc || !cyc.length) return null;
+  // Prefer an exact opening date from the most recent cycle that has one; fall back
+  // to the month average. Confidence is surfaced so an estimate never reads as fact.
+  const dated = cyc.filter(c => c.openedDate).sort((a,b) => b.year - a.year);
+  const confirmed = cyc.some(c => c.confidence === "confirmed");
+  const rolling = cyc.some(c => c.rolling);
+  let m, day = null;
+  if(dated.length){
+    const d = new Date(dated[0].openedDate);
+    m = d.getMonth()+1; day = d.getDate();
+  } else {
+    m = Math.round(cyc.reduce((s,c)=>s+c.openedMonth,0)/cyc.length);
+  }
   const now = new Date();
   let year = now.getFullYear();
   if(now.getMonth()+1 > m) year++;            // window for this year already passed
-  const target = new Date(year, m-1, 1);
+  const target = new Date(year, m-1, day || 1);
   const days = Math.ceil((target - now)/86400000);
-  return { month: m, days };
+  return { month: m, day, days, confirmed, rolling };
 }
 const MN = ["","January","February","March","April","May","June","July","August","September","October","November","December"];
 
@@ -143,7 +158,7 @@ function render(){
         <div class="left"><span class="dot" style="background:${c.color}"></span><h3>${c.name}</h3></div>
         <span class="tag">${c.sector}</span>
       </div>
-      ${pr ? `<div class="predict-line">Typically opens ~${MN[pr.month]}${pr.days>=0?` · in ~${pr.days} days`:""}</div>`:""}
+      ${pr ? `<div class="predict-line">${pr.confirmed?"Opens":"Typically opens ~"}${pr.day?` ${pr.day} `:" "}${MN[pr.month]}${pr.days>=0?` · in ~${pr.days} days`:""}${pr.rolling?" · rolling, closes when full":""}${pr.confirmed?"":" (estimated)"}</div>`:""}
       <div class="links">
         <a href="${c.govSearchUrl}" target="_blank">Gov ↗</a>
         <a href="https://www.ucas.com/explore/search/courses-beta?query=${encodeURIComponent(c.name)}" target="_blank">UCAS ↗</a>
@@ -284,21 +299,34 @@ function programEl(p){
 
 function renderTimeline(){
   const tl = document.getElementById("timeline");
+  const N = MONTHS.length;
+  // Grid width is set inline so the stylesheet (which hardcodes 7 columns) is untouched.
+  tl.style.gridTemplateColumns = `130px repeat(${N}, 1fr)`;
   tl.innerHTML = `<div class="tl-name"></div>` + MONTHS.map(m=>`<div class="tl-month">${m}</div>`).join("");
   window.TRACKER_DATA.companies.forEach(c => {
     if(activeSector!=="all" && c.sector!==activeSector) return;
     if(!c.historicalCycles || !c.historicalCycles.length) return;
-    const openM = Math.round(c.historicalCycles.reduce((s,x)=>s+x.openedMonth,0)/c.historicalCycles.length);
-    const closeM = Math.round(c.historicalCycles.reduce((s,x)=>s+x.closedMonth,0)/c.historicalCycles.length);
+    // Use the most recent cycle, not an average. Averaging month numbers across
+    // years that genuinely differ produces nonsense - Goldman's Oct-2025 and
+    // Aug-2024 cycles averaged out to a "September to June" window.
+    const latest = c.historicalCycles.slice().sort((a,b) => b.year - a.year)[0];
+    const openM = latest.openedMonth;
+    const closeM = latest.closedMonth;
     const oi = MONTH_NUM.indexOf(openM), ci = MONTH_NUM.indexOf(closeM);
     if(oi<0) return;
     const span = (ci<0?oi:ci) - oi + 1;
-    const name = document.createElement("div"); name.className="tl-name"; name.textContent=c.name;
+    const estimated = !c.historicalCycles.some(x => x.confidence === "confirmed");
+    const name = document.createElement("div"); name.className="tl-name";
+    name.textContent = c.name + (estimated ? " (est.)" : "");
+    name.title = estimated
+      ? "Window estimated - not yet confirmed against a dated source"
+      : "Window confirmed from a dated source";
     const row = document.createElement("div"); row.className="tl-row";
+    row.style.gridColumn = `2 / span ${N}`;
     const bar = document.createElement("div"); bar.className="tl-bar";
     bar.style.background = c.color;
-    bar.style.left = (oi/7*100) + "%";
-    bar.style.width = (Math.max(span,1)/7*100) + "%";
+    bar.style.left = (oi/N*100) + "%";
+    bar.style.width = (Math.max(span,1)/N*100) + "%";
     bar.title = `${c.name}: ~${MN[openM]} – ${MN[closeM]}`;
     row.appendChild(bar);
     tl.appendChild(name); tl.appendChild(row);
