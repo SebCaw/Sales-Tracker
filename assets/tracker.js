@@ -6,6 +6,7 @@ const STATUS_LABEL = { watching:"Watching", applied:"Applied", interview:"Interv
 let activeSector = "all";
 let activeStatFilter = null;   // "open" | "closing_soon" | "applied" | "watching"
 let closingWithin = "any";
+let roleFilter = "customer";   // "customer" (core+client) | "core" | "all"
 let chartsAnimated = false;    // chart bars draw in on the first render only, not on re-filters
 
 // PowerShell's ConvertTo-Json serialises a single-element array as a bare object,
@@ -126,6 +127,10 @@ function render(){
         const d = daysUntil(p.closingDate);
         if(d === null || d > +closingWithin || d < 0) return false;
       }
+      // Customer-facing filter. Programmes with no tag are treated as internal.
+      const cf = p.customerFacing || "internal";
+      if(roleFilter === "core" && cf !== "core") return false;
+      if(roleFilter === "customer" && cf !== "core" && cf !== "client") return false;
       return true;
     });
     if(!progs.length) return;
@@ -243,8 +248,8 @@ function programEl(p){
   el.innerHTML = `
     <div class="ptop">
       <div>
-        <div class="pname">${p.name}</div>
-        <div class="pmeta">${[p.standard, p.location, p.salary, p.duration].filter(Boolean).join(" · ")}</div>
+        <div class="pname">${p.name}${p.nameConfidence === "unconfirmed" ? ` <span class="tag" title="Programme name not yet verified against the employer's own careers page">unverified</span>` : ""}</div>
+        <div class="pmeta">${[p.standard, p.location, p.salary, p.duration].filter(Boolean).join(" · ")}${p.sourceUrl ? ` · <a href="${p.sourceUrl}" target="_blank" rel="noopener">source ↗</a>` : ""}</div>
       </div>
       <span class="badge ${s}">${BADGE_TXT[s]}</span>
     </div>
@@ -328,6 +333,11 @@ if(sectorSeg){
 const closingFilter = document.getElementById("closingFilter");
 if(closingFilter){
   closingFilter.addEventListener("change", e => { closingWithin = e.target.value; render(); });
+}
+const roleFilterEl = document.getElementById("roleFilter");
+if(roleFilterEl){
+  roleFilterEl.value = roleFilter;
+  roleFilterEl.addEventListener("change", e => { roleFilter = e.target.value; render(); });
 }
 
 // Skeleton placeholders shown while data.json is fetching

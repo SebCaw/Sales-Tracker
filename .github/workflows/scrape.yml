@@ -10,7 +10,12 @@ name: Scrape GOV.UK apprenticeships
 on:
   schedule:
     - cron: "0 8,9,12,13,15,16 * * *"
-  workflow_dispatch: {}   # manual "run now" button in the GitHub Actions tab (always runs)
+  workflow_dispatch:       # manual "run now" button in the GitHub Actions tab (always runs)
+    inputs:
+      test_notification:
+        description: "Send a single test notification and exit (does not scrape)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write          # allow the job to commit the updated data files
@@ -47,6 +52,7 @@ jobs:
         env:
           # Telegram notifications: add these as repo SECRETS (Settings → Secrets and variables → Actions → Secrets).
           # The bot token is sensitive — it must be a Secret, never committed to the repo.
+          TEST_NOTIFICATION: ${{ inputs.test_notification }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           # Optional alternative — ntfy.sh topic as a repo Variable (not secret).

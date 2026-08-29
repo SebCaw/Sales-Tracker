@@ -6,6 +6,34 @@
 $ErrorActionPreference = 'Stop'
 $root = $PSScriptRoot
 
+# Test path: set TEST_NOTIFICATION=true (via the workflow_dispatch input) to send one
+# dummy message and exit before scraping. Without this there is no way to distinguish
+# "notifications work but nothing is new" from "notifications are broken" - which
+# matters most right before the September season opens.
+if ($env:TEST_NOTIFICATION -eq 'true') {
+  $testMsg = "Test notification from the apprenticeship tracker." + [char]10 + [char]10 + "If you can read this, notifications are wired up correctly." + [char]10 + "Sent: " + (Get-Date).ToString('yyyy-MM-dd HH:mm:ss') + " UTC"
+  $sentOk = $false
+  if ($env:TELEGRAM_BOT_TOKEN -and $env:TELEGRAM_CHAT_ID) {
+    try {
+      $tBody = @{ chat_id = $env:TELEGRAM_CHAT_ID; text = $testMsg } | ConvertTo-Json
+      Invoke-RestMethod -Uri "https://api.telegram.org/bot$($env:TELEGRAM_BOT_TOKEN)/sendMessage" -Method Post -ContentType 'application/json; charset=utf-8' -Body $tBody | Out-Null
+      Write-Host "Test notification sent via Telegram."
+      $sentOk = $true
+    } catch { Write-Host "Telegram test FAILED: $_" }
+  } else {
+    Write-Host "Telegram not configured - TELEGRAM_BOT_TOKEN and/or TELEGRAM_CHAT_ID is missing."
+  }
+  if ($env:NTFY_TOPIC) {
+    try {
+      Invoke-RestMethod -Uri "https://ntfy.sh/$($env:NTFY_TOPIC)" -Method Post -Body $testMsg -Headers @{ Title = "Apprenticeship tracker test" } | Out-Null
+      Write-Host "Test notification sent via ntfy."
+      $sentOk = $true
+    } catch { Write-Host "ntfy test FAILED: $_" }
+  }
+  if (-not $sentOk) { Write-Host "No test notification could be sent - check the repo secrets."; exit 1 }
+  exit 0
+}
+
 $TECH = 'software|web develop|developer|programmer|data scien|data engineer|data analy|\bdata\b|cyber|\bcloud|devops|infrastructure|\bnetwork|enginee|structural|mechanical|electrical|chemical|aerospace|laborator|quantity survey|architect\b'
 # Always exclude these, however the rest of the title reads (core technical / data / cyber roles).
 $HARD_TECH = 'software|web develop|\bdeveloper\b|programmer|data scien|data engineer|data analy|\bdata\b|cyber|devops|network engineer|infrastructure engineer|cloud engineer'
