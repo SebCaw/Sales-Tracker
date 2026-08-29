@@ -132,6 +132,56 @@ function Get-VacancyDetail([string]$id) {
 }
 
 
+
+# ---- customer-facing classification -------------------------------------------------
+# Mirrors the customerFacing tags in data.json so scraped roles are classified the
+# same way as seeded ones. core = owns a customer or a number, client = advisory but
+# client-facing, internal = back office.
+function CustomerFacing-From([string]$title, [string]$course) {
+  $t = ("$title $course").ToLower()
+  if ($t -match 'sales|account manage|business develop|customer success|customer solution|client engagement|relationship manage|commercial bank|corporate bank|customer service|channel|partnership') { return 'core' }
+  if ($t -match 'consult|advis|wealth|client|tax|strateg') { return 'client' }
+  return 'internal'
+}
+
+# ---- employer careers-site check ----------------------------------------------------
+# GOV.UK carries almost none of these employers - the register showed 46 Level 6
+# apprenticeships nationally and zero matching "sales". This checks each employer's
+# own careers page for a change in apprenticeship signal, so an opening is caught even
+# when GOV.UK never lists it. Cheap, no browser, no Claude credits.
+function Check-EmployerSite($co) {
+  $result = [pscustomobject]@{
+    checkedAt = (Get-Date).ToString('yyyy-MM-ddTHH:mm:ssZ')
+    reachable = $false
+    httpStatus = $null
+    mentions  = 0
+    openSignal = $false
+    note = ''
+  }
+  if (-not $co.careerUrl) { $result.note = 'no careerUrl'; return $result }
+  try {
+    $resp = Invoke-WebRequest -Uri $co.careerUrl -UseBasicParsing -TimeoutSec 25 -Headers @{ 'User-Agent' = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36' }
+    $result.reachable = $true
+    $result.httpStatus = [int]$resp.StatusCode
+    $html = $resp.Content
+    $result.mentions = ([regex]::Matches($html, 'apprentice', 'IgnoreCase')).Count
+    # An explicit "applications are open" style phrase is a stronger signal than a
+    # raw mention count, which barely moves on a static marketing page.
+    if ([regex]::IsMatch($html, 'applications?s+(ares+)?(nows+)?open|applys+now|nows+recruiting|applications?s+open(ing)?s+', 'IgnoreCase')) {
+      $result.openSignal = $true
+    }
+    if ($result.mentions -eq 0) { $result.note = 'page loaded but no apprenticeship text - likely JavaScript-rendered' }
+  } catch {
+    $code = $null
+    try { $code = [int]$_.Exception.Response.StatusCode } catch {}
+    $result.httpStatus = $code
+    if ($code -eq 403) { $result.note = 'blocked - check manually in the browser' }
+    elseif ($code -eq 404) { $result.note = 'careerUrl is dead - needs updating' }
+    else { $result.note = 'unreachable' }
+  }
+  return $result
+}
+
 # ---- the three sector datasets ----
 $sectorFiles = [ordered]@{ sales = 'data.json' }
 $today = (Get-Date).ToString('yyyy-MM-dd')
@@ -146,10 +196,21 @@ $errors = 0
 $liveItems = @()       # {id, company, title, sector} for everything found this run (for notifications)
 $coreIdsAll = @{}      # vacancy ids matched to a core company (excluded from interest)
 $coreLive = 0
+$siteSignals = @()   # employers whose own careers page started reading as open
 
 # ---- core companies: scrape each sector's tracked employers ----
 foreach ($s in $sectorFiles.Keys) {
   foreach ($co in $data[$s].companies) {
+
+    # Check the employer's own careers page alongside GOV.UK.
+    $prevSignal = $false
+    if ($co.PSObject.Properties.Name -contains 'siteCheck' -and $co.siteCheck) { $prevSignal = [bool]$co.siteCheck.openSignal }
+    $sc = Check-EmployerSite $co
+    $co | Add-Member -NotePropertyName siteCheck -NotePropertyValue $sc -Force
+    if ($sc.openSignal -and -not $prevSignal) {
+      $siteSignals += [pscustomobject]@{ company = $co.name; url = $co.careerUrl; sector = $s }
+      Write-Host ("Careers-site signal: " + $co.name + " now reads as open - " + $co.careerUrl)
+    }
     $html = Fetch-Html $co.govSearchUrl
     if ($null -eq $html) { $errors++; continue }
     $matched = @()
@@ -172,11 +233,16 @@ foreach ($s in $sectorFiles.Keys) {
           status=(Status-From $v.closeISO); closingDate=$v.closeISO
           applyUrl=("https://www.findapprenticeship.service.gov.uk/apprenticeship/" + $v.id)
           govVacancyId=$v.id; firstSeen=$today; lastSeen=$today
+          customerFacing=(CustomerFacing-From $v.title $v.course)
+          nameConfidence='official'   # straight from a live GOV.UK posting
+          sourceUrl=("https://www.findapprenticeship.service.gov.uk/apprenticeship/" + $v.id)
         }
       }
       $co.programs = $progs
     }
-    # else: leave the company's existing (seeded / pre-season) programs untouched
+    # else: leave the company's existing (seeded / pre-season) programs untouched.
+    # Curated programmes carry official names researched from the employer's own site;
+    # GOV.UK listings only replace them when GOV.UK actually has something.
   }
 }
 
