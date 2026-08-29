@@ -1,649 +1,592 @@
 {
-    "meta":  {
-                 "lastUpdated":  "2026-08-29T22:25:59Z",
-                 "version":  4,
-                 "seenVacancyIds":  [
-
-                                    ],
-                 "newSinceLastScrape":  [
-
-                                        ]
-             },
-    "interestListings":  [
-
-                         ],
-    "companies":  [
-                      {
-                          "id":  "microsoft",
-                          "name":  "Microsoft",
-                          "sector":  "sales",
-                          "color":  "#0067b8",
-                          "employerNameVariants":  [
-                                                       "Microsoft",
-                                                       "Microsoft Limited",
-                                                       "Microsoft UK"
-                                                   ],
-                          "careerUrl":  "https://careers.microsoft.com/v2/global/en/uk-apprenticeships.html",
-                          "govSearchUrl":  "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=Microsoft\u0026levelIds=6\u0026distanceType=England",
-                          "historicalCycles":  [
-                                                   {
-                                                       "year":  2025,
-                                                       "openedMonth":  9,
-                                                       "closedMonth":  11,
-                                                       "openedDate":  null,
-                                                       "closedDate":  null,
-                                                       "rolling":  false,
-                                                       "confidence":  "estimated",
-                                                       "source":  null
-                                                   },
-                                                   {
-                                                       "year":  2024,
-                                                       "openedMonth":  9,
-                                                       "closedMonth":  11,
-                                                       "openedDate":  null,
-                                                       "closedDate":  null,
-                                                       "rolling":  false,
-                                                       "confidence":  "estimated",
-                                                       "source":  null
-                                                   }
-                                               ],
-                          "programs":  [
-                                           {
-                                               "id":  "microsoft_sales",
-                                               "name":  "Customer Solutions Sales - Apprentice (AI-Enabled)",
-                                               "standard":  "Level 6 - B2B Sales",
-                                               "location":  "London",
-                                               "salary":  "~£25,200",
-                                               "duration":  "3 years",
-                                               "customerFacing":  "core",
-                                               "nameConfidence":  "official",
-                                               "sourceUrl":  "https://uk.prosple.com/graduate-employers/microsoft-uk/jobs-internships/customer-solutions-sales-ai-enabled-apprentice",
-                                               "status":  "not_open",
-                                               "closingDate":  null,
-                                               "applyUrl":  null,
-                                               "govVacancyId":  null,
-                                               "firstSeen":  null,
-                                               "lastSeen":  null
-                                           },
-                                           {
-                                               "id":  "microsoft_csu",
-                                               "name":  "Customer Success Unit - Apprentice",
-                                               "standard":  "Level 6",
-                                               "location":  "London",
-                                               "salary":  "~£25,200",
-                                               "duration":  "3 years",
-                                               "customerFacing":  "core",
-                                               "nameConfidence":  "official",
-                                               "sourceUrl":  "https://uk.prosple.com/graduate-employers/microsoft-uk/jobs-internships/customer-success-unit-apprentice",
-                                               "status":  "not_open",
-                                               "closingDate":  null,
-                                               "applyUrl":  null,
-                                               "govVacancyId":  null,
-                                               "firstSeen":  null,
-                                               "lastSeen":  null
-                                           }
-                                       ],
-                          "siteCheck":  {
-                                            "checkedAt":  "2026-08-29T23:25:48Z",
-                                            "reachable":  true,
-                                            "httpStatus":  200,
-                                            "mentions":  0,
-                                            "openSignal":  false,
-                                            "note":  "page loaded but no apprenticeship text - likely JavaScript-rendered"
-                                        }
-                      },
-                      {
-                          "id":  "ibm",
-                          "name":  "IBM",
-                          "sector":  "sales",
-                          "color":  "#0530ad",
-                          "employerNameVariants":  [
-                                                       "IBM United Kingdom Limited",
-                                                       "IBM UK",
-                                                       "IBM"
-                                                   ],
-                          "careerUrl":  "https://www.ibm.com/uk-en/employment/uk-early-professional/apprenticeship/",
-                          "govSearchUrl":  "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=IBM\u0026levelIds=6\u0026distanceType=England",
-                          "historicalCycles":  [
-                                                   {
-                                                       "year":  2025,
-                                                       "openedMonth":  6,
-                                                       "closedMonth":  8,
-                                                       "openedDate":  null,
-                                                       "closedDate":  "2025-08-17",
-                                                       "rolling":  false,
-                                                       "confidence":  "confirmed",
-                                                       "source":  "https://uptree.co/opportunities/ibm/587171843/"
-                                                   },
-                                                   {
-                                                       "year":  2024,
-                                                       "openedMonth":  6,
-                                                       "closedMonth":  8,
-                                                       "openedDate":  null,
-                                                       "closedDate":  null,
-                                                       "rolling":  false,
-                                                       "confidence":  "estimated",
-                                                       "source":  "https://uptree.co/opportunities/ibm/587171843/"
-                                                   }
-                                               ],
-                          "programs":  [
-                                           {
-                                               "id":  "ibm_techsales",
-                                               "name":  "Technology Sales Degree Apprentice",
-                                               "standard":  "Level 6",
-                                               "location":  "London / Hursley / Manchester / Farnborough",
-                                               "salary":  null,
-                                               "duration":  "3 years",
-                                               "customerFacing":  "core",
-                                               "nameConfidence":  "official",
-                                               "sourceUrl":  "https://uptree.co/opportunities/ibm/4238497321/",
-                                               "status":  "not_open",
-                                               "closingDate":  null,
-                                               "applyUrl":  null,
-                                               "govVacancyId":  null,
-                                               "firstSeen":  null,
-                                               "lastSeen":  null
-                                           },
-                                           {
-                                               "id":  "ibm_dts",
-                                               "name":  "Digital \u0026 Technology Solutions Degree Apprenticeship",
-                                               "standard":  "Level 6",
-                                               "location":  "Multiple UK",
-                                               "salary":  null,
-                                               "duration":  null,
-                                               "customerFacing":  "internal",
-                                               "nameConfidence":  "official",
-                                               "sourceUrl":  "https://talents.studysmarter.co.uk/companies/ibm/technology-level-6-digital-and-technology-solutions-degree-apprenticeship-2026-30177994/",
-                                               "status":  "not_open",
-                                               "closingDate":  null,
-                                               "applyUrl":  null,
-                                               "govVacancyId":  null,
-                                               "firstSeen":  null,
-                                               "lastSeen":  null
-                                           },
-                                           {
-                                               "id":  "ibm_consultant",
-                                               "name":  "Junior Management Consultant Apprenticeship",
-                                               "standard":  "Level 6",
-                                               "location":  "Multiple UK",
-                                               "salary":  null,
-                                               "duration":  null,
-                                               "customerFacing":  "client",
-                                               "nameConfidence":  "official",
-                                               "sourceUrl":  "https://www.amazingapprenticeships.com/employers/ibm/",
-                                               "status":  "not_open",
-                                               "closingDate":  null,
-                                               "applyUrl":  null,
-                                               "govVacancyId":  null,
-                                               "firstSeen":  null,
-                                               "lastSeen":  null
-                                           }
-                                       ],
-                          "siteCheck":  {
-                                            "checkedAt":  "2026-08-29T23:25:49Z",
-                                            "reachable":  true,
-                                            "httpStatus":  200,
-                                            "mentions":  0,
-                                            "openSignal":  false,
-                                            "note":  "page loaded but no apprenticeship text - likely JavaScript-rendered"
-                                        }
-                      },
-                      {
-                          "id":  "salesforce",
-                          "name":  "Salesforce",
-                          "sector":  "sales",
-                          "color":  "#00a1e0",
-                          "employerNameVariants":  [
-                                                       "Salesforce.com UK",
-                                                       "Salesforce UK",
-                                                       "Salesforce"
-                                                   ],
-                          "careerUrl":  "https://www.salesforce.com/uk/company/careers/university-recruiting/",
-                          "govSearchUrl":  "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=Salesforce\u0026levelIds=6\u0026distanceType=England",
-                          "historicalCycles":  [
-                                                   {
-                                                       "year":  2025,
-                                                       "openedMonth":  9,
-                                                       "closedMonth":  11,
-                                                       "openedDate":  null,
-                                                       "closedDate":  null,
-                                                       "rolling":  false,
-                                                       "confidence":  "estimated",
-                                                       "source":  null
-                                                   },
-                                                   {
-                                                       "year":  2024,
-                                                       "openedMonth":  9,
-                                                       "closedMonth":  11,
-                                                       "openedDate":  null,
-                                                       "closedDate":  null,
-                                                       "rolling":  false,
-                                                       "confidence":  "estimated",
-                                                       "source":  null
-                                                   }
-                                               ],
-                          "programs":  [
-                                           {
-                                               "id":  "salesforce_bdr",
-                                               "name":  "Sales / Business Development",
-                                               "standard":  "Level 6",
-                                               "location":  "London",
-                                               "salary":  null,
-                                               "duration":  "3 years",
-                                               "status":  "not_open",
-                                               "closingDate":  null,
-                                               "applyUrl":  null,
-                                               "govVacancyId":  null,
-                                               "firstSeen":  null,
-                                               "lastSeen":  null,
-                                               "customerFacing":  "core",
-                                               "nameConfidence":  "unconfirmed",
-                                               "sourceUrl":  null
-                                           },
-                                           {
-                                               "id":  "salesforce_cs",
-                                               "name":  "Customer Success",
-                                               "standard":  "Level 6",
-                                               "location":  "London",
-                                               "salary":  null,
-                                               "duration":  "3 years",
-                                               "status":  "not_open",
-                                               "closingDate":  null,
-                                               "applyUrl":  null,
-                                               "govVacancyId":  null,
-                                               "firstSeen":  null,
-                                               "lastSeen":  null,
-                                               "customerFacing":  "core",
-                                               "nameConfidence":  "unconfirmed",
-                                               "sourceUrl":  null
-                                           }
-                                       ],
-                          "siteCheck":  {
-                                            "checkedAt":  "2026-08-29T23:25:51Z",
-                                            "reachable":  true,
-                                            "httpStatus":  200,
-                                            "mentions":  0,
-                                            "openSignal":  false,
-                                            "note":  "page loaded but no apprenticeship text - likely JavaScript-rendered"
-                                        }
-                      },
-                      {
-                          "id":  "amazon",
-                          "name":  "Amazon",
-                          "sector":  "sales",
-                          "color":  "#ff9900",
-                          "employerNameVariants":  [
-                                                       "Amazon UK Services Ltd",
-                                                       "Amazon Web Services",
-                                                       "Amazon"
-                                                   ],
-                          "careerUrl":  "https://www.amazon.jobs/en-gb/business_categories/student-programs",
-                          "govSearchUrl":  "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=Amazon\u0026levelIds=6\u0026distanceType=England",
-                          "historicalCycles":  [
-                                                   {
-                                                       "year":  2025,
-                                                       "openedMonth":  2,
-                                                       "closedMonth":  5,
-                                                       "openedDate":  null,
-                                                       "closedDate":  null,
-                                                       "rolling":  false,
-                                                       "confidence":  "confirmed",
-                                                       "source":  "https://www.amazon.jobs/en-gb/landing_pages/apprentices"
-                                                   },
-                                                   {
-                                                       "year":  2024,
-                                                       "openedMonth":  2,
-                                                       "closedMonth":  5,
-                                                       "openedDate":  null,
-                                                       "closedDate":  null,
-                                                       "rolling":  false,
-                                                       "confidence":  "confirmed",
-                                                       "source":  "https://www.amazon.jobs/en-gb/landing_pages/apprentices"
-                                                   }
-                                               ],
-                          "programs":  [
-                                           {
-                                               "id":  "amazon_sales",
-                                               "name":  "Sales / Account Manager",
-                                               "standard":  "Level 6 - BSc Business to Business Sales",
-                                               "location":  "Swansea",
-                                               "salary":  null,
-                                               "duration":  "42 months",
-                                               "customerFacing":  "core",
-                                               "nameConfidence":  "official",
-                                               "sourceUrl":  "https://amazonapprenticeships.co.uk/sales-account-manager",
-                                               "status":  "not_open",
-                                               "closingDate":  null,
-                                               "applyUrl":  null,
-                                               "govVacancyId":  null,
-                                               "firstSeen":  null,
-                                               "lastSeen":  null
-                                           }
-                                       ],
-                          "siteCheck":  {
-                                            "checkedAt":  "2026-08-29T23:25:53Z",
-                                            "reachable":  true,
-                                            "httpStatus":  200,
-                                            "mentions":  7,
-                                            "openSignal":  false,
-                                            "note":  ""
-                                        }
-                      },
-                      {
-                          "id":  "oracle",
-                          "name":  "Oracle",
-                          "sector":  "sales",
-                          "color":  "#c74634",
-                          "employerNameVariants":  [
-                                                       "Oracle Corporation UK Limited",
-                                                       "Oracle UK",
-                                                       "Oracle"
-                                                   ],
-                          "careerUrl":  "https://www.oracle.com/uk/careers/students-grads/",
-                          "govSearchUrl":  "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=Oracle\u0026levelIds=6\u0026distanceType=England",
-                          "historicalCycles":  [
-                                                   {
-                                                       "year":  2025,
-                                                       "openedMonth":  9,
-                                                       "closedMonth":  11,
-                                                       "openedDate":  null,
-                                                       "closedDate":  null,
-                                                       "rolling":  false,
-                                                       "confidence":  "estimated",
-                                                       "source":  null
-                                                   },
-                                                   {
-                                                       "year":  2024,
-                                                       "openedMonth":  9,
-                                                       "closedMonth":  11,
-                                                       "openedDate":  null,
-                                                       "closedDate":  null,
-                                                       "rolling":  false,
-                                                       "confidence":  "estimated",
-                                                       "source":  null
-                                                   }
-                                               ],
-                          "programs":  [
-                                           {
-                                               "id":  "oracle_sales",
-                                               "name":  "Sales \u0026 Business Development",
-                                               "standard":  "Level 6",
-                                               "location":  "Reading / London",
-                                               "salary":  null,
-                                               "duration":  "3 years",
-                                               "status":  "not_open",
-                                               "closingDate":  null,
-                                               "applyUrl":  null,
-                                               "govVacancyId":  null,
-                                               "firstSeen":  null,
-                                               "lastSeen":  null,
-                                               "customerFacing":  "core",
-                                               "nameConfidence":  "unconfirmed",
-                                               "sourceUrl":  null
-                                           },
-                                           {
-                                               "id":  "oracle_cs",
-                                               "name":  "Customer Success",
-                                               "standard":  "Level 6",
-                                               "location":  "Reading",
-                                               "salary":  null,
-                                               "duration":  "3 years",
-                                               "status":  "not_open",
-                                               "closingDate":  null,
-                                               "applyUrl":  null,
-                                               "govVacancyId":  null,
-                                               "firstSeen":  null,
-                                               "lastSeen":  null,
-                                               "customerFacing":  "core",
-                                               "nameConfidence":  "unconfirmed",
-                                               "sourceUrl":  null
-                                           }
-                                       ],
-                          "siteCheck":  {
-                                            "checkedAt":  "2026-08-29T23:25:55Z",
-                                            "reachable":  true,
-                                            "httpStatus":  200,
-                                            "mentions":  0,
-                                            "openSignal":  false,
-                                            "note":  "page loaded but no apprenticeship text - likely JavaScript-rendered"
-                                        }
-                      },
-                      {
-                          "id":  "sap",
-                          "name":  "SAP",
-                          "sector":  "sales",
-                          "color":  "#0faaff",
-                          "employerNameVariants":  [
-                                                       "SAP UK Limited",
-                                                       "SAP (UK) Limited",
-                                                       "SAP"
-                                                   ],
-                          "careerUrl":  "https://www.sap.com/uk/about/careers/students-and-graduates.html",
-                          "govSearchUrl":  "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=SAP\u0026levelIds=6\u0026distanceType=England",
-                          "historicalCycles":  [
-                                                   {
-                                                       "year":  2025,
-                                                       "openedMonth":  9,
-                                                       "closedMonth":  11,
-                                                       "openedDate":  null,
-                                                       "closedDate":  null,
-                                                       "rolling":  false,
-                                                       "confidence":  "estimated",
-                                                       "source":  null
-                                                   },
-                                                   {
-                                                       "year":  2024,
-                                                       "openedMonth":  9,
-                                                       "closedMonth":  11,
-                                                       "openedDate":  null,
-                                                       "closedDate":  null,
-                                                       "rolling":  false,
-                                                       "confidence":  "estimated",
-                                                       "source":  null
-                                                   }
-                                               ],
-                          "programs":  [
-                                           {
-                                               "id":  "sap_sales",
-                                               "name":  "Sales \u0026 Business Development",
-                                               "standard":  "Level 6",
-                                               "location":  "Feltham / London",
-                                               "salary":  null,
-                                               "duration":  "3 years",
-                                               "status":  "not_open",
-                                               "closingDate":  null,
-                                               "applyUrl":  null,
-                                               "govVacancyId":  null,
-                                               "firstSeen":  null,
-                                               "lastSeen":  null,
-                                               "customerFacing":  "core",
-                                               "nameConfidence":  "unconfirmed",
-                                               "sourceUrl":  null
-                                           },
-                                           {
-                                               "id":  "sap_cust",
-                                               "name":  "Customer Engagement",
-                                               "standard":  "Level 6",
-                                               "location":  "Feltham",
-                                               "salary":  null,
-                                               "duration":  "3 years",
-                                               "status":  "not_open",
-                                               "closingDate":  null,
-                                               "applyUrl":  null,
-                                               "govVacancyId":  null,
-                                               "firstSeen":  null,
-                                               "lastSeen":  null,
-                                               "customerFacing":  "core",
-                                               "nameConfidence":  "unconfirmed",
-                                               "sourceUrl":  null
-                                           }
-                                       ],
-                          "siteCheck":  {
-                                            "checkedAt":  "2026-08-29T23:25:55Z",
-                                            "reachable":  false,
-                                            "httpStatus":  403,
-                                            "mentions":  0,
-                                            "openSignal":  false,
-                                            "note":  "blocked - check manually in the browser"
-                                        }
-                      },
-                      {
-                          "id":  "cisco",
-                          "name":  "Cisco",
-                          "sector":  "sales",
-                          "color":  "#1ba0d7",
-                          "employerNameVariants":  [
-                                                       "Cisco Systems",
-                                                       "Cisco International",
-                                                       "Cisco"
-                                                   ],
-                          "careerUrl":  "https://www.cisco.com/c/en/us/about/careers/we-are-cisco/early-in-career.html",
-                          "govSearchUrl":  "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=Cisco\u0026levelIds=6\u0026distanceType=England",
-                          "historicalCycles":  [
-                                                   {
-                                                       "year":  2025,
-                                                       "openedMonth":  1,
-                                                       "closedMonth":  4,
-                                                       "openedDate":  null,
-                                                       "closedDate":  null,
-                                                       "rolling":  false,
-                                                       "confidence":  "confirmed",
-                                                       "source":  "https://jobs.cisco.com/jobs/EventDetailNL?projectId=1417536"
-                                                   },
-                                                   {
-                                                       "year":  2024,
-                                                       "openedMonth":  1,
-                                                       "closedMonth":  4,
-                                                       "openedDate":  null,
-                                                       "closedDate":  null,
-                                                       "rolling":  false,
-                                                       "confidence":  "confirmed",
-                                                       "source":  "https://jobs.cisco.com/jobs/EventDetailNL?projectId=1417536"
-                                                   }
-                                               ],
-                          "programs":  [
-                                           {
-                                               "id":  "cisco_sales",
-                                               "name":  "Sales \u0026 Customer Success",
-                                               "standard":  "Level 6",
-                                               "location":  "Feltham / London",
-                                               "salary":  null,
-                                               "duration":  "3 years",
-                                               "status":  "not_open",
-                                               "closingDate":  null,
-                                               "applyUrl":  null,
-                                               "govVacancyId":  null,
-                                               "firstSeen":  null,
-                                               "lastSeen":  null,
-                                               "customerFacing":  "core",
-                                               "nameConfidence":  "unconfirmed",
-                                               "sourceUrl":  null
-                                           },
-                                           {
-                                               "id":  "cisco_bd",
-                                               "name":  "Business Development",
-                                               "standard":  "Level 6",
-                                               "location":  "London",
-                                               "salary":  null,
-                                               "duration":  "3 years",
-                                               "status":  "not_open",
-                                               "closingDate":  null,
-                                               "applyUrl":  null,
-                                               "govVacancyId":  null,
-                                               "firstSeen":  null,
-                                               "lastSeen":  null,
-                                               "customerFacing":  "core",
-                                               "nameConfidence":  "unconfirmed",
-                                               "sourceUrl":  null
-                                           }
-                                       ],
-                          "siteCheck":  {
-                                            "checkedAt":  "2026-08-29T23:25:56Z",
-                                            "reachable":  false,
-                                            "httpStatus":  403,
-                                            "mentions":  0,
-                                            "openSignal":  false,
-                                            "note":  "blocked - check manually in the browser"
-                                        }
-                      },
-                      {
-                          "id":  "unilever",
-                          "name":  "Unilever",
-                          "sector":  "sales",
-                          "color":  "#1f36c7",
-                          "employerNameVariants":  [
-                                                       "Unilever UK",
-                                                       "Unilever U.K. Central Resources",
-                                                       "Unilever"
-                                                   ],
-                          "careerUrl":  "https://www.unilever.co.uk/careers/graduates-and-students/",
-                          "govSearchUrl":  "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=Unilever\u0026levelIds=6\u0026distanceType=England",
-                          "historicalCycles":  [
-                                                   {
-                                                       "year":  2024,
-                                                       "openedMonth":  9,
-                                                       "closedMonth":  11,
-                                                       "openedDate":  null,
-                                                       "closedDate":  "2024-11-08",
-                                                       "rolling":  false,
-                                                       "confidence":  "confirmed",
-                                                       "source":  "https://careers.unilever.com/en/uk-and-ireland-early-careers-apprenticeships"
-                                                   },
-                                                   {
-                                                       "year":  2025,
-                                                       "openedMonth":  9,
-                                                       "closedMonth":  11,
-                                                       "openedDate":  null,
-                                                       "closedDate":  null,
-                                                       "rolling":  false,
-                                                       "confidence":  "estimated",
-                                                       "source":  "https://careers.unilever.com/en/uk-and-ireland-early-careers-apprenticeships"
-                                                   }
-                                               ],
-                          "programs":  [
-                                           {
-                                               "id":  "unilever_comm",
-                                               "name":  "Commercial \u0026 Sales",
-                                               "standard":  "Level 6",
-                                               "location":  "Leatherhead / London",
-                                               "salary":  null,
-                                               "duration":  "3 years",
-                                               "status":  "not_open",
-                                               "closingDate":  null,
-                                               "applyUrl":  null,
-                                               "govVacancyId":  null,
-                                               "firstSeen":  null,
-                                               "lastSeen":  null,
-                                               "customerFacing":  "core",
-                                               "nameConfidence":  "unconfirmed",
-                                               "sourceUrl":  null
-                                           },
-                                           {
-                                               "id":  "unilever_biz",
-                                               "name":  "Business Management",
-                                               "standard":  "Level 6",
-                                               "location":  "Port Sunlight",
-                                               "salary":  null,
-                                               "duration":  "4 years",
-                                               "status":  "not_open",
-                                               "closingDate":  null,
-                                               "applyUrl":  null,
-                                               "govVacancyId":  null,
-                                               "firstSeen":  null,
-                                               "lastSeen":  null,
-                                               "customerFacing":  "internal",
-                                               "nameConfidence":  "unconfirmed",
-                                               "sourceUrl":  null
-                                           }
-                                       ],
-                          "siteCheck":  {
-                                            "checkedAt":  "2026-08-29T23:25:56Z",
-                                            "reachable":  false,
-                                            "httpStatus":  403,
-                                            "mentions":  0,
-                                            "openSignal":  false,
-                                            "note":  "blocked - check manually in the browser"
-                                        }
-                      }
-                  ]
+  "meta": {
+    "lastUpdated": "2026-08-29T22:25:59Z",
+    "version": 4,
+    "seenVacancyIds": [],
+    "newSinceLastScrape": []
+  },
+  "interestListings": [],
+  "companies": [
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "sector": "sales",
+      "color": "#0067b8",
+      "employerNameVariants": [
+        "Microsoft",
+        "Microsoft Limited",
+        "Microsoft UK"
+      ],
+      "careerUrl": "https://careers.microsoft.com/v2/global/en/uk-apprenticeships.html",
+      "govSearchUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=Microsoft&levelIds=6&distanceType=England",
+      "historicalCycles": [
+        {
+          "year": 2025,
+          "openedMonth": 9,
+          "closedMonth": 11,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "estimated",
+          "source": null
+        },
+        {
+          "year": 2024,
+          "openedMonth": 9,
+          "closedMonth": 11,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "estimated",
+          "source": null
+        }
+      ],
+      "programs": [
+        {
+          "id": "microsoft_sales",
+          "name": "Customer Solutions Sales - Apprentice (AI-Enabled)",
+          "standard": "Level 6 - B2B Sales",
+          "location": "London",
+          "salary": "~£25,200",
+          "duration": "3 years",
+          "customerFacing": "core",
+          "nameConfidence": "official",
+          "sourceUrl": "https://uk.prosple.com/graduate-employers/microsoft-uk/jobs-internships/customer-solutions-sales-ai-enabled-apprentice",
+          "status": "not_open",
+          "closingDate": null,
+          "applyUrl": null,
+          "govVacancyId": null,
+          "firstSeen": null,
+          "lastSeen": null
+        },
+        {
+          "id": "microsoft_csu",
+          "name": "Customer Success Unit - Apprentice",
+          "standard": "Level 6",
+          "location": "London",
+          "salary": "~£25,200",
+          "duration": "3 years",
+          "customerFacing": "core",
+          "nameConfidence": "official",
+          "sourceUrl": "https://uk.prosple.com/graduate-employers/microsoft-uk/jobs-internships/customer-success-unit-apprentice",
+          "status": "not_open",
+          "closingDate": null,
+          "applyUrl": null,
+          "govVacancyId": null,
+          "firstSeen": null,
+          "lastSeen": null
+        }
+      ],
+      "siteCheck": {
+        "checkedAt": "2026-08-29T23:25:48Z",
+        "reachable": true,
+        "httpStatus": 200,
+        "mentions": 0,
+        "openSignal": false,
+        "note": "page loaded but no apprenticeship text - likely JavaScript-rendered"
+      }
+    },
+    {
+      "id": "ibm",
+      "name": "IBM",
+      "sector": "sales",
+      "color": "#0530ad",
+      "employerNameVariants": [
+        "IBM United Kingdom Limited",
+        "IBM UK",
+        "IBM"
+      ],
+      "careerUrl": "https://www.ibm.com/uk-en/employment/uk-early-professional/apprenticeship/",
+      "govSearchUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=IBM&levelIds=6&distanceType=England",
+      "historicalCycles": [
+        {
+          "year": 2025,
+          "openedMonth": 6,
+          "closedMonth": 8,
+          "openedDate": null,
+          "closedDate": "2025-08-17",
+          "rolling": false,
+          "confidence": "confirmed",
+          "source": "https://uptree.co/opportunities/ibm/587171843/"
+        },
+        {
+          "year": 2024,
+          "openedMonth": 6,
+          "closedMonth": 8,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "estimated",
+          "source": "https://uptree.co/opportunities/ibm/587171843/"
+        }
+      ],
+      "programs": [
+        {
+          "id": "ibm_techsales",
+          "name": "Technology Sales Degree Apprentice",
+          "standard": "Level 6",
+          "location": "London / Hursley / Manchester / Farnborough",
+          "salary": null,
+          "duration": "3 years",
+          "customerFacing": "core",
+          "nameConfidence": "official",
+          "sourceUrl": "https://uptree.co/opportunities/ibm/4238497321/",
+          "status": "not_open",
+          "closingDate": null,
+          "applyUrl": null,
+          "govVacancyId": null,
+          "firstSeen": null,
+          "lastSeen": null
+        },
+        {
+          "id": "ibm_dts",
+          "name": "Digital & Technology Solutions Degree Apprenticeship",
+          "standard": "Level 6",
+          "location": "Multiple UK",
+          "salary": null,
+          "duration": null,
+          "customerFacing": "internal",
+          "nameConfidence": "official",
+          "sourceUrl": "https://talents.studysmarter.co.uk/companies/ibm/technology-level-6-digital-and-technology-solutions-degree-apprenticeship-2026-30177994/",
+          "status": "not_open",
+          "closingDate": null,
+          "applyUrl": null,
+          "govVacancyId": null,
+          "firstSeen": null,
+          "lastSeen": null
+        },
+        {
+          "id": "ibm_consultant",
+          "name": "Junior Management Consultant Apprenticeship",
+          "standard": "Level 6",
+          "location": "Multiple UK",
+          "salary": null,
+          "duration": null,
+          "customerFacing": "client",
+          "nameConfidence": "official",
+          "sourceUrl": "https://www.amazingapprenticeships.com/employers/ibm/",
+          "status": "not_open",
+          "closingDate": null,
+          "applyUrl": null,
+          "govVacancyId": null,
+          "firstSeen": null,
+          "lastSeen": null
+        }
+      ],
+      "siteCheck": {
+        "checkedAt": "2026-08-29T23:25:49Z",
+        "reachable": true,
+        "httpStatus": 200,
+        "mentions": 0,
+        "openSignal": false,
+        "note": "page loaded but no apprenticeship text - likely JavaScript-rendered"
+      }
+    },
+    {
+      "id": "salesforce",
+      "name": "Salesforce",
+      "sector": "sales",
+      "color": "#00a1e0",
+      "employerNameVariants": [
+        "Salesforce.com UK",
+        "Salesforce UK",
+        "Salesforce"
+      ],
+      "careerUrl": "https://www.salesforce.com/uk/company/careers/university-recruiting/",
+      "govSearchUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=Salesforce&levelIds=6&distanceType=England",
+      "historicalCycles": [
+        {
+          "year": 2025,
+          "openedMonth": 9,
+          "closedMonth": 11,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "estimated",
+          "source": null
+        },
+        {
+          "year": 2024,
+          "openedMonth": 9,
+          "closedMonth": 11,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "estimated",
+          "source": null
+        }
+      ],
+      "programs": [
+        {
+          "id": "salesforce_futurepathways",
+          "name": "UKI Future Pathways Apprenticeship",
+          "standard": "Level 6",
+          "location": "London",
+          "salary": null,
+          "duration": null,
+          "customerFacing": "core",
+          "nameConfidence": "official",
+          "sourceUrl": "https://www.salesforce.com/company/careers/talent-programs/future-pathways/",
+          "status": "not_open",
+          "closingDate": null,
+          "applyUrl": null,
+          "govVacancyId": null,
+          "firstSeen": null,
+          "lastSeen": null
+        }
+      ],
+      "siteCheck": {
+        "checkedAt": "2026-08-29T23:25:51Z",
+        "reachable": true,
+        "httpStatus": 200,
+        "mentions": 0,
+        "openSignal": false,
+        "note": "page loaded but no apprenticeship text - likely JavaScript-rendered"
+      }
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "sector": "sales",
+      "color": "#ff9900",
+      "employerNameVariants": [
+        "Amazon UK Services Ltd",
+        "Amazon Web Services",
+        "Amazon"
+      ],
+      "careerUrl": "https://www.amazon.jobs/en-gb/business_categories/student-programs",
+      "govSearchUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=Amazon&levelIds=6&distanceType=England",
+      "historicalCycles": [
+        {
+          "year": 2025,
+          "openedMonth": 2,
+          "closedMonth": 5,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "confirmed",
+          "source": "https://www.amazon.jobs/en-gb/landing_pages/apprentices"
+        },
+        {
+          "year": 2024,
+          "openedMonth": 2,
+          "closedMonth": 5,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "confirmed",
+          "source": "https://www.amazon.jobs/en-gb/landing_pages/apprentices"
+        }
+      ],
+      "programs": [
+        {
+          "id": "amazon_sales",
+          "name": "Sales / Account Manager",
+          "standard": "Level 6 - BSc Business to Business Sales",
+          "location": "Swansea",
+          "salary": null,
+          "duration": "42 months",
+          "customerFacing": "core",
+          "nameConfidence": "official",
+          "sourceUrl": "https://amazonapprenticeships.co.uk/sales-account-manager",
+          "status": "not_open",
+          "closingDate": null,
+          "applyUrl": null,
+          "govVacancyId": null,
+          "firstSeen": null,
+          "lastSeen": null
+        }
+      ],
+      "siteCheck": {
+        "checkedAt": "2026-08-29T23:25:53Z",
+        "reachable": true,
+        "httpStatus": 200,
+        "mentions": 7,
+        "openSignal": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "oracle",
+      "name": "Oracle",
+      "sector": "sales",
+      "color": "#c74634",
+      "employerNameVariants": [
+        "Oracle Corporation UK Limited",
+        "Oracle UK",
+        "Oracle"
+      ],
+      "careerUrl": "https://www.oracle.com/uk/careers/students-grads/",
+      "govSearchUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=Oracle&levelIds=6&distanceType=England",
+      "historicalCycles": [
+        {
+          "year": 2025,
+          "openedMonth": 9,
+          "closedMonth": 11,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "estimated",
+          "source": null
+        },
+        {
+          "year": 2024,
+          "openedMonth": 9,
+          "closedMonth": 11,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "estimated",
+          "source": null
+        }
+      ],
+      "programs": [
+        {
+          "id": "oracle_sales",
+          "name": "Sales & Business Development",
+          "standard": "Level 6",
+          "location": "Reading / London",
+          "salary": null,
+          "duration": "3 years",
+          "status": "not_open",
+          "closingDate": null,
+          "applyUrl": null,
+          "govVacancyId": null,
+          "firstSeen": null,
+          "lastSeen": null,
+          "customerFacing": "core",
+          "nameConfidence": "unconfirmed",
+          "sourceUrl": null
+        },
+        {
+          "id": "oracle_cs",
+          "name": "Customer Success",
+          "standard": "Level 6",
+          "location": "Reading",
+          "salary": null,
+          "duration": "3 years",
+          "status": "not_open",
+          "closingDate": null,
+          "applyUrl": null,
+          "govVacancyId": null,
+          "firstSeen": null,
+          "lastSeen": null,
+          "customerFacing": "core",
+          "nameConfidence": "unconfirmed",
+          "sourceUrl": null
+        }
+      ],
+      "siteCheck": {
+        "checkedAt": "2026-08-29T23:25:55Z",
+        "reachable": true,
+        "httpStatus": 200,
+        "mentions": 0,
+        "openSignal": false,
+        "note": "page loaded but no apprenticeship text - likely JavaScript-rendered"
+      }
+    },
+    {
+      "id": "sap",
+      "name": "SAP",
+      "sector": "sales",
+      "color": "#0faaff",
+      "employerNameVariants": [
+        "SAP UK Limited",
+        "SAP (UK) Limited",
+        "SAP"
+      ],
+      "careerUrl": "https://www.sap.com/uk/about/careers/students-and-graduates.html",
+      "govSearchUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=SAP&levelIds=6&distanceType=England",
+      "historicalCycles": [
+        {
+          "year": 2025,
+          "openedMonth": 9,
+          "closedMonth": 11,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "estimated",
+          "source": null
+        },
+        {
+          "year": 2024,
+          "openedMonth": 9,
+          "closedMonth": 11,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "estimated",
+          "source": null
+        }
+      ],
+      "programs": [
+        {
+          "id": "sap_sales",
+          "name": "Sales & Business Development",
+          "standard": "Level 6",
+          "location": "Feltham / London",
+          "salary": null,
+          "duration": "3 years",
+          "status": "not_open",
+          "closingDate": null,
+          "applyUrl": null,
+          "govVacancyId": null,
+          "firstSeen": null,
+          "lastSeen": null,
+          "customerFacing": "core",
+          "nameConfidence": "unconfirmed",
+          "sourceUrl": null
+        },
+        {
+          "id": "sap_cust",
+          "name": "Customer Engagement",
+          "standard": "Level 6",
+          "location": "Feltham",
+          "salary": null,
+          "duration": "3 years",
+          "status": "not_open",
+          "closingDate": null,
+          "applyUrl": null,
+          "govVacancyId": null,
+          "firstSeen": null,
+          "lastSeen": null,
+          "customerFacing": "core",
+          "nameConfidence": "unconfirmed",
+          "sourceUrl": null
+        }
+      ],
+      "siteCheck": {
+        "checkedAt": "2026-08-29T23:25:55Z",
+        "reachable": false,
+        "httpStatus": 403,
+        "mentions": 0,
+        "openSignal": false,
+        "note": "blocked - check manually in the browser"
+      }
+    },
+    {
+      "id": "cisco",
+      "name": "Cisco",
+      "sector": "sales",
+      "color": "#1ba0d7",
+      "employerNameVariants": [
+        "Cisco Systems",
+        "Cisco International",
+        "Cisco"
+      ],
+      "careerUrl": "https://www.cisco.com/c/en/us/about/careers/we-are-cisco/early-in-career.html",
+      "govSearchUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=Cisco&levelIds=6&distanceType=England",
+      "historicalCycles": [
+        {
+          "year": 2025,
+          "openedMonth": 1,
+          "closedMonth": 4,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "confirmed",
+          "source": "https://jobs.cisco.com/jobs/EventDetailNL?projectId=1417536"
+        },
+        {
+          "year": 2024,
+          "openedMonth": 1,
+          "closedMonth": 4,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "confirmed",
+          "source": "https://jobs.cisco.com/jobs/EventDetailNL?projectId=1417536"
+        }
+      ],
+      "programs": [
+        {
+          "id": "cisco_sales",
+          "name": "Sales Apprenticeship",
+          "standard": "Level 6",
+          "location": "Feltham / London",
+          "salary": null,
+          "duration": null,
+          "customerFacing": "core",
+          "nameConfidence": "official",
+          "sourceUrl": "https://uk.prosple.com/graduate-employers/cisco-uk/jobs-internships/sales-apprenticeship",
+          "status": "not_open",
+          "closingDate": null,
+          "applyUrl": null,
+          "govVacancyId": null,
+          "firstSeen": null,
+          "lastSeen": null
+        }
+      ],
+      "siteCheck": {
+        "checkedAt": "2026-08-29T23:25:56Z",
+        "reachable": false,
+        "httpStatus": 403,
+        "mentions": 0,
+        "openSignal": false,
+        "note": "blocked - check manually in the browser"
+      }
+    },
+    {
+      "id": "unilever",
+      "name": "Unilever",
+      "sector": "sales",
+      "color": "#1f36c7",
+      "employerNameVariants": [
+        "Unilever UK",
+        "Unilever U.K. Central Resources",
+        "Unilever"
+      ],
+      "careerUrl": "https://www.unilever.co.uk/careers/graduates-and-students/",
+      "govSearchUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=Unilever&levelIds=6&distanceType=England",
+      "historicalCycles": [
+        {
+          "year": 2024,
+          "openedMonth": 9,
+          "closedMonth": 11,
+          "openedDate": null,
+          "closedDate": "2024-11-08",
+          "rolling": false,
+          "confidence": "confirmed",
+          "source": "https://careers.unilever.com/en/uk-and-ireland-early-careers-apprenticeships"
+        },
+        {
+          "year": 2025,
+          "openedMonth": 9,
+          "closedMonth": 11,
+          "openedDate": null,
+          "closedDate": null,
+          "rolling": false,
+          "confidence": "estimated",
+          "source": "https://careers.unilever.com/en/uk-and-ireland-early-careers-apprenticeships"
+        }
+      ],
+      "programs": [
+        {
+          "id": "unilever_cmda",
+          "name": "Degree Apprenticeship - UK & Ireland Level 6 Chartered Management",
+          "standard": "Level 6 - BA (Hons) Management and Business, Kingston University",
+          "location": "UK & Ireland",
+          "salary": null,
+          "duration": null,
+          "customerFacing": "core",
+          "nameConfidence": "official",
+          "sourceUrl": "https://www.gradcracker.com/hub/264/unilever/degree-apprenticeship/76075/degree-apprenticeship-uk-and-ireland-level-6-chartered-management",
+          "status": "not_open",
+          "closingDate": null,
+          "applyUrl": null,
+          "govVacancyId": null,
+          "firstSeen": null,
+          "lastSeen": null
+        }
+      ],
+      "siteCheck": {
+        "checkedAt": "2026-08-29T23:25:56Z",
+        "reachable": false,
+        "httpStatus": 403,
+        "mentions": 0,
+        "openSignal": false,
+        "note": "blocked - check manually in the browser"
+      }
+    }
+  ]
 }
