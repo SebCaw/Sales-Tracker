@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-08-31T15:35:49Z",
+    "lastUpdated": "2026-09-01T12:50:46Z",
     "version": 4,
     "seenVacancyIds": [],
     "newSinceLastScrape": []
@@ -78,7 +78,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-08-31T15:35:31Z",
+        "checkedAt": "2026-09-01T12:50:33Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -174,7 +174,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-08-31T15:35:32Z",
+        "checkedAt": "2026-09-01T12:50:34Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -236,7 +236,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-08-31T15:35:36Z",
+        "checkedAt": "2026-09-01T12:50:36Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -298,7 +298,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-08-31T15:35:37Z",
+        "checkedAt": "2026-09-01T12:50:37Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 7,
@@ -377,7 +377,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-08-31T15:35:39Z",
+        "checkedAt": "2026-09-01T12:50:39Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -456,7 +456,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-08-31T15:35:40Z",
+        "checkedAt": "2026-09-01T12:50:40Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -518,7 +518,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-08-31T15:35:41Z",
+        "checkedAt": "2026-09-01T12:50:40Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -580,7 +580,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-08-31T15:35:41Z",
+        "checkedAt": "2026-09-01T12:50:41Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
