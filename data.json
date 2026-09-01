@@ -17,7 +17,7 @@
         "Microsoft Limited",
         "Microsoft UK"
       ],
-      "careerUrl": "https://careers.microsoft.com/v2/global/en/uk-apprenticeships.html",
+      "careerUrl": "https://careers.microsoft.com/v2/global/en/students",
       "govSearchUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=Microsoft&levelIds=6&distanceType=England",
       "historicalCycles": [
         {
@@ -96,7 +96,7 @@
         "IBM UK",
         "IBM"
       ],
-      "careerUrl": "https://www.ibm.com/uk-en/employment/uk-early-professional/apprenticeship/",
+      "careerUrl": "https://www.ibm.com/uk-en/careers",
       "govSearchUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=IBM&levelIds=6&distanceType=England",
       "historicalCycles": [
         {
@@ -192,7 +192,7 @@
         "Salesforce UK",
         "Salesforce"
       ],
-      "careerUrl": "https://www.salesforce.com/uk/company/careers/university-recruiting/",
+      "careerUrl": "https://www.salesforce.com/company/careers/university/",
       "govSearchUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=Salesforce&levelIds=6&distanceType=England",
       "historicalCycles": [
         {
@@ -254,7 +254,7 @@
         "Amazon Web Services",
         "Amazon"
       ],
-      "careerUrl": "https://www.amazon.jobs/en-gb/business_categories/student-programs",
+      "careerUrl": "https://www.amazon.jobs/content/en-gb/career-programs/university",
       "govSearchUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=Amazon&levelIds=6&distanceType=England",
       "historicalCycles": [
         {
@@ -400,18 +400,18 @@
       "historicalCycles": [
         {
           "year": 2025,
-          "openedMonth": 9,
-          "closedMonth": 11,
+          "openedMonth": 12,
+          "closedMonth": 2,
           "openedDate": null,
-          "closedDate": null,
+          "closedDate": "2026-02-15",
           "rolling": false,
-          "confidence": "estimated",
-          "source": null
+          "confidence": "confirmed",
+          "source": "https://higherin.com/jobs/39797/sap/register-your-interest-technology-associate-degree-apprenticeship-2026"
         },
         {
           "year": 2024,
-          "openedMonth": 9,
-          "closedMonth": 11,
+          "openedMonth": 12,
+          "closedMonth": 2,
           "openedDate": null,
           "closedDate": null,
           "rolling": false,
@@ -422,11 +422,11 @@
       "programs": [
         {
           "id": "sap_sales",
-          "name": "Sales & Business Development",
-          "standard": "Level 6",
-          "location": "Feltham / London",
-          "salary": null,
-          "duration": "3 years",
+          "name": "Sales Associate Degree Apprenticeship",
+          "standard": "Level 6 - BSc (Hons) Professional Practice in B2B Sales, Middlesex University",
+          "location": "Feltham",
+          "salary": "£27,230",
+          "duration": null,
           "status": "not_open",
           "closingDate": null,
           "applyUrl": null,
@@ -434,16 +434,16 @@
           "firstSeen": null,
           "lastSeen": null,
           "customerFacing": "core",
-          "nameConfidence": "unconfirmed",
-          "sourceUrl": null
+          "nameConfidence": "official",
+          "sourceUrl": "https://jobs.sap.com/job/Middlesex-Sales-Associate-Degree-Apprenticeship-TW148HD/1291396101/"
         },
         {
           "id": "sap_cust",
-          "name": "Customer Engagement",
-          "standard": "Level 6",
+          "name": "Technology Associate Degree Apprenticeship",
+          "standard": "Level 6 - BSc (Hons) Digital and Technology Solutions, Corndel College London",
           "location": "Feltham",
-          "salary": null,
-          "duration": "3 years",
+          "salary": "£26,300",
+          "duration": null,
           "status": "not_open",
           "closingDate": null,
           "applyUrl": null,
@@ -451,8 +451,8 @@
           "firstSeen": null,
           "lastSeen": null,
           "customerFacing": "core",
-          "nameConfidence": "unconfirmed",
-          "sourceUrl": null
+          "nameConfidence": "official",
+          "sourceUrl": "https://higherin.com/jobs/39797/sap/register-your-interest-technology-associate-degree-apprenticeship-2026"
         }
       ],
       "siteCheck": {
