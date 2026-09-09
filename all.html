@@ -59,12 +59,6 @@
         <option value="consulting">Consulting</option>
       </select>
     </label>
-    <label>Show roles
-      <select id="fFacing">
-        <option value="customer">Customer-facing</option>
-        <option value="all">All roles</option>
-      </select>
-    </label>
     <label>Status
       <select id="fStatus">
         <option value="all">All</option>
@@ -88,7 +82,7 @@
 // NOTE: the finance repo was renamed to Seb-Cawthorne, so its Pages URL moved.
 // Finance-Tracker now 404s - do not point at it.
 const SOURCES = [
-  { key:'sales',      label:'Sales',      url:'data.json',
+  { key:'sales',      label:'Sales',      url:'https://sebcaw.github.io/Sales-Tracker/data.json',
     site:'https://sebcaw.github.io/Sales-Tracker/tracker.html' },
   { key:'finance',    label:'Finance',    url:'https://sebcaw.github.io/Seb-Cawthorne/data.json',
     site:'https://sebcaw.github.io/Seb-Cawthorne/tracker.html' },
@@ -120,7 +114,6 @@ function statusPill(s){
 
 function render(){
   const wantSector = document.getElementById('fSector').value;
-  const wantFacing = document.getElementById('fFacing').value;
   const wantStatus = document.getElementById('fStatus').value;
   const host = document.getElementById('sectors');
   host.innerHTML = '';
@@ -134,7 +127,6 @@ function render(){
 
     const cos = data.companies.map(co => {
       let progs = co.programs || [];
-      if(wantFacing === 'customer') progs = progs.filter(p => p.customerFacing === 'core' || p.customerFacing === 'client');
       if(wantStatus === 'open') progs = progs.filter(p => p.status === 'open' || p.status === 'closing_soon');
       return { co, progs };
     }).filter(x => x.progs.length || wantStatus !== 'open');
@@ -213,7 +205,7 @@ Promise.all(SOURCES.map(s =>
     .catch(e => { state.failed.push(s.key + ': ' + e.message); })
 )).then(() => {
   renderSources(); freshness(); render();
-  ['fSector','fFacing','fStatus'].forEach(id =>
+  ['fSector','fStatus'].forEach(id =>
     document.getElementById(id).addEventListener('change', render));
 });
 </script>
