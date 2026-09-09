@@ -96,9 +96,20 @@
         "IBM UK",
         "IBM"
       ],
-      "careerUrl": "https://www.ibm.com/uk-en/careers",
+      "careerUrl": "https://www.ibm.com/careers/search?q=apprentice&country=GB",
       "govSearchUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=IBM&levelIds=6&distanceType=England",
       "historicalCycles": [
+        {
+          "year": 2026,
+          "openedMonth": 10,
+          "closedMonth": 3,
+          "openedDate": null,
+          "closedDate": "2026-03-04",
+          "rolling": true,
+          "confidence": "confirmed",
+          "source": "https://uptree.co/opportunities/ibm/4238497321/",
+          "note": "2026 intake started 7 Sept 2026. Deadline 4 March but closes earlier on volume. Opening month inferred from a March deadline - NOT June as previously recorded."
+        },
         {
           "year": 2025,
           "openedMonth": 6,
@@ -106,18 +117,9 @@
           "openedDate": null,
           "closedDate": "2025-08-17",
           "rolling": false,
-          "confidence": "confirmed",
-          "source": "https://uptree.co/opportunities/ibm/587171843/"
-        },
-        {
-          "year": 2024,
-          "openedMonth": 6,
-          "closedMonth": 8,
-          "openedDate": null,
-          "closedDate": null,
-          "rolling": false,
           "confidence": "estimated",
-          "source": "https://uptree.co/opportunities/ibm/587171843/"
+          "source": "https://uptree.co/opportunities/ibm/587171843/",
+          "note": "Earlier reading from an aggregator; superseded by the 4 March deadline evidence."
         }
       ],
       "programs": [
