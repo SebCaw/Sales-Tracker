@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-11T12:24:36Z",
+    "lastUpdated": "2026-09-13T12:54:04Z",
     "version": 4,
     "seenVacancyIds": [],
     "newSinceLastScrape": []
@@ -78,7 +78,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-11T12:24:21Z",
+        "checkedAt": "2026-09-13T12:53:45Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -176,7 +176,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-11T12:24:24Z",
+        "checkedAt": "2026-09-13T12:53:48Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -238,7 +238,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-11T12:24:25Z",
+        "checkedAt": "2026-09-13T12:53:50Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -300,7 +300,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-11T12:24:26Z",
+        "checkedAt": "2026-09-13T12:53:50Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 7,
@@ -379,7 +379,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-11T12:24:27Z",
+        "checkedAt": "2026-09-13T12:53:52Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -458,12 +458,12 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-11T12:24:28Z",
+        "checkedAt": "2026-09-13T12:53:55Z",
         "reachable": false,
-        "httpStatus": 403,
+        "httpStatus": 404,
         "mentions": 0,
         "openSignal": false,
-        "note": "blocked - check manually in the browser"
+        "note": "careerUrl is dead - needs updating"
       }
     },
     {
@@ -520,7 +520,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-11T12:24:29Z",
+        "checkedAt": "2026-09-13T12:53:56Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -582,7 +582,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-09-11T12:24:29Z",
+        "checkedAt": "2026-09-13T12:53:57Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
