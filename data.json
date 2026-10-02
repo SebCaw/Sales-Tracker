@@ -1,16 +1,15 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-01T20:54:00Z",
+    "lastUpdated": "2026-10-02T14:35:41Z",
     "version": 4,
     "seenVacancyIds": [
       "VAC2000055580",
       "VAC2000055573",
-      "VAC2000055565"
+      "VAC2000055565",
+      "VAC2000055548"
     ],
     "newSinceLastScrape": [
-      "VAC2000055580",
-      "VAC2000055573",
-      "VAC2000055565"
+      "VAC2000055548"
     ]
   },
   "interestListings": [
@@ -24,7 +23,7 @@
       "category": "Sales",
       "closingDate": "2026-10-25",
       "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055580",
-      "firstSeen": "2026-10-01"
+      "firstSeen": "2026-10-02"
     },
     {
       "id": "VAC2000055573",
@@ -36,7 +35,7 @@
       "category": "Sales",
       "closingDate": "2026-10-25",
       "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055573",
-      "firstSeen": "2026-10-01"
+      "firstSeen": "2026-10-02"
     },
     {
       "id": "VAC2000055565",
@@ -48,7 +47,19 @@
       "category": "Sales",
       "closingDate": "2026-10-11",
       "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055565",
-      "firstSeen": "2026-10-01"
+      "firstSeen": "2026-10-02"
+    },
+    {
+      "id": "VAC2000055548",
+      "company": "HSBC UK",
+      "title": "Degree Apprenticeship - Commercial Banking - Birmingham - HSBC",
+      "standard": "Level 6",
+      "location": "Birmingham (B1 1HQ)",
+      "salary": null,
+      "category": "Sales",
+      "closingDate": "2026-10-25",
+      "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055548",
+      "firstSeen": "2026-10-02"
     }
   ],
   "companies": [
@@ -123,7 +134,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-01T20:53:43Z",
+        "checkedAt": "2026-10-02T14:35:25Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -221,7 +232,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-01T20:53:48Z",
+        "checkedAt": "2026-10-02T14:35:27Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -283,7 +294,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-01T20:53:48Z",
+        "checkedAt": "2026-10-02T14:35:28Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -345,7 +356,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-01T20:53:49Z",
+        "checkedAt": "2026-10-02T14:35:29Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 7,
@@ -424,7 +435,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-01T20:53:51Z",
+        "checkedAt": "2026-10-02T14:35:31Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -503,7 +514,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-01T20:53:53Z",
+        "checkedAt": "2026-10-02T14:35:32Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -565,7 +576,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-01T20:53:54Z",
+        "checkedAt": "2026-10-02T14:35:33Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -627,7 +638,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-01T20:53:54Z",
+        "checkedAt": "2026-10-02T14:35:34Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
