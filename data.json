@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-06T14:55:18Z",
+    "lastUpdated": "2026-10-06T20:51:26Z",
     "version": 4,
     "seenVacancyIds": [
       "VAC2000055580",
@@ -132,7 +132,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T14:54:59Z",
+        "checkedAt": "2026-10-06T20:51:13Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -230,7 +230,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T14:55:04Z",
+        "checkedAt": "2026-10-06T20:51:16Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -292,7 +292,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T14:55:05Z",
+        "checkedAt": "2026-10-06T20:51:16Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -354,7 +354,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T14:55:06Z",
+        "checkedAt": "2026-10-06T20:51:17Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 7,
@@ -433,7 +433,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T14:55:07Z",
+        "checkedAt": "2026-10-06T20:51:18Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -512,7 +512,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T14:55:08Z",
+        "checkedAt": "2026-10-06T20:51:19Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -574,7 +574,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T14:55:09Z",
+        "checkedAt": "2026-10-06T20:51:20Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -636,7 +636,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-06T14:55:10Z",
+        "checkedAt": "2026-10-06T20:51:20Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
