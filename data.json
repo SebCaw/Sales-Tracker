@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-10T23:21:21Z",
+    "lastUpdated": "2026-10-11T14:47:22Z",
     "version": 4,
     "seenVacancyIds": [
       "VAC2000055580",
@@ -21,7 +21,7 @@
       "category": "Sales",
       "closingDate": "2026-10-25",
       "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055580",
-      "firstSeen": "2026-10-10"
+      "firstSeen": "2026-10-11"
     },
     {
       "id": "VAC2000055573",
@@ -33,7 +33,7 @@
       "category": "Sales",
       "closingDate": "2026-10-25",
       "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055573",
-      "firstSeen": "2026-10-10"
+      "firstSeen": "2026-10-11"
     },
     {
       "id": "VAC2000055548",
@@ -45,7 +45,7 @@
       "category": "Sales",
       "closingDate": "2026-10-25",
       "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000055548",
-      "firstSeen": "2026-10-10"
+      "firstSeen": "2026-10-11"
     }
   ],
   "companies": [
@@ -120,7 +120,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-10T23:21:05Z",
+        "checkedAt": "2026-10-11T14:47:08Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -218,7 +218,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-10T23:21:09Z",
+        "checkedAt": "2026-10-11T14:47:11Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -280,7 +280,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-10T23:21:09Z",
+        "checkedAt": "2026-10-11T14:47:12Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -342,7 +342,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-10T23:21:11Z",
+        "checkedAt": "2026-10-11T14:47:13Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 7,
@@ -421,7 +421,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-10T23:21:12Z",
+        "checkedAt": "2026-10-11T14:47:14Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -500,7 +500,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-10T23:21:13Z",
+        "checkedAt": "2026-10-11T14:47:15Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -562,7 +562,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-10T23:21:14Z",
+        "checkedAt": "2026-10-11T14:47:15Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -624,7 +624,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-10-10T23:21:14Z",
+        "checkedAt": "2026-10-11T14:47:16Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
