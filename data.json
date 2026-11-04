@@ -1,16 +1,60 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-03T21:41:28Z",
+    "lastUpdated": "2026-11-04T16:04:12Z",
     "version": 4,
     "seenVacancyIds": [
       "VAC2000055580",
       "VAC2000055573",
       "VAC2000055565",
-      "VAC2000055548"
+      "VAC2000055548",
+      "VAC2000062488",
+      "VAC2000062635",
+      "VAC2000062654"
     ],
-    "newSinceLastScrape": []
+    "newSinceLastScrape": [
+      "VAC2000062488",
+      "VAC2000062635",
+      "VAC2000062654"
+    ]
   },
-  "interestListings": [],
+  "interestListings": [
+    {
+      "id": "VAC2000062488",
+      "company": "COCA-COLA EUROPACIFIC PARTNERS PLC",
+      "title": "Commercial Degree Apprenticeship",
+      "standard": "Level 6",
+      "location": "Uxbridge (UB8 1EZ)",
+      "salary": null,
+      "category": "Sales",
+      "closingDate": "2026-11-20",
+      "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062488",
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "VAC2000062635",
+      "company": "Lloyds Banking Group",
+      "title": "Accounting and Finance Degree Apprenticeship - West Yorkshire (Leeds and Halifax)",
+      "standard": "Level 6",
+      "location": "Leeds (LS1 4AP)",
+      "salary": null,
+      "category": "Sales",
+      "closingDate": "2026-12-01",
+      "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062635",
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "VAC2000062654",
+      "company": "Lloyds Banking Group",
+      "title": "Accounting and Finance Degree Apprenticeship - Bristol",
+      "standard": "Level 6",
+      "location": "Bristol (BS1 5LF)",
+      "salary": null,
+      "category": "Sales",
+      "closingDate": "2026-12-01",
+      "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062654",
+      "firstSeen": "2026-11-04"
+    }
+  ],
   "companies": [
     {
       "id": "microsoft",
@@ -83,7 +127,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-03T21:41:15Z",
+        "checkedAt": "2026-11-04T16:04:00Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -181,7 +225,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-03T21:41:18Z",
+        "checkedAt": "2026-11-04T16:04:03Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -243,7 +287,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-03T21:41:18Z",
+        "checkedAt": "2026-11-04T16:04:04Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -305,7 +349,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-03T21:41:20Z",
+        "checkedAt": "2026-11-04T16:04:05Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 7,
@@ -384,7 +428,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-03T21:41:20Z",
+        "checkedAt": "2026-11-04T16:04:05Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -463,7 +507,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-03T21:41:21Z",
+        "checkedAt": "2026-11-04T16:04:06Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -525,7 +569,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-03T21:41:22Z",
+        "checkedAt": "2026-11-04T16:04:07Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -587,7 +631,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-03T21:41:23Z",
+        "checkedAt": "2026-11-04T16:04:07Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
