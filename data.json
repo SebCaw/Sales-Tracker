@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-10T02:37:06Z",
+    "lastUpdated": "2026-11-10T16:16:14Z",
     "version": 4,
     "seenVacancyIds": [
       "VAC2000055580",
@@ -24,7 +24,7 @@
       "location": "Uxbridge (UB8 1EZ)",
       "salary": null,
       "category": "Sales",
-      "closingDate": "2026-11-20",
+      "closingDate": null,
       "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062488",
       "firstSeen": "2026-11-10"
     },
@@ -149,7 +149,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-10T02:36:48Z",
+        "checkedAt": "2026-11-10T16:15:58Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -247,7 +247,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-10T02:36:52Z",
+        "checkedAt": "2026-11-10T16:16:01Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -309,7 +309,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-10T02:36:53Z",
+        "checkedAt": "2026-11-10T16:16:02Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -371,10 +371,10 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-10T02:36:54Z",
+        "checkedAt": "2026-11-10T16:16:04Z",
         "reachable": true,
         "httpStatus": 200,
-        "mentions": 7,
+        "mentions": 5,
         "openSignal": false,
         "note": ""
       }
@@ -450,7 +450,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-10T02:36:55Z",
+        "checkedAt": "2026-11-10T16:16:05Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -529,7 +529,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-10T02:36:57Z",
+        "checkedAt": "2026-11-10T16:16:06Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -591,7 +591,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-10T02:36:58Z",
+        "checkedAt": "2026-11-10T16:16:07Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -653,7 +653,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-10T02:36:59Z",
+        "checkedAt": "2026-11-10T16:16:07Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
