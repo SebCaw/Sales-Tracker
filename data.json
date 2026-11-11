@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-11T00:29:47Z",
+    "lastUpdated": "2026-11-11T15:58:02Z",
     "version": 4,
     "seenVacancyIds": [
       "VAC2000055580",
@@ -11,23 +11,14 @@
       "VAC2000062635",
       "VAC2000062654",
       "VAC2000062758",
-      "VAC2000062769"
+      "VAC2000062769",
+      "VAC2000063765"
     ],
-    "newSinceLastScrape": []
+    "newSinceLastScrape": [
+      "VAC2000063765"
+    ]
   },
   "interestListings": [
-    {
-      "id": "VAC2000062488",
-      "company": "COCA-COLA EUROPACIFIC PARTNERS PLC",
-      "title": "Commercial Degree Apprenticeship",
-      "standard": "Level 6",
-      "location": "Uxbridge (UB8 1EZ)",
-      "salary": null,
-      "category": "Sales",
-      "closingDate": null,
-      "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062488",
-      "firstSeen": "2026-11-11"
-    },
     {
       "id": "VAC2000062635",
       "company": "Lloyds Banking Group",
@@ -74,6 +65,18 @@
       "category": "Business",
       "closingDate": null,
       "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062769",
+      "firstSeen": "2026-11-11"
+    },
+    {
+      "id": "VAC2000063765",
+      "company": "AMAZON UK SERVICES LTD.",
+      "title": "Business Analyst Apprentice  (Fixed Term Contract)",
+      "standard": "Level 6",
+      "location": "Worship Street (EC2A 2FA)",
+      "salary": null,
+      "category": "Business",
+      "closingDate": null,
+      "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000063765",
       "firstSeen": "2026-11-11"
     }
   ],
@@ -149,7 +152,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-11T00:29:30Z",
+        "checkedAt": "2026-11-11T15:57:45Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -247,7 +250,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-11T00:29:32Z",
+        "checkedAt": "2026-11-11T15:57:48Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -309,7 +312,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-11T00:29:33Z",
+        "checkedAt": "2026-11-11T15:57:49Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -371,7 +374,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-11T00:29:35Z",
+        "checkedAt": "2026-11-11T15:57:50Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 5,
@@ -450,7 +453,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-11T00:29:37Z",
+        "checkedAt": "2026-11-11T15:57:52Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -529,7 +532,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-11T00:29:37Z",
+        "checkedAt": "2026-11-11T15:57:53Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -591,7 +594,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-11T00:29:38Z",
+        "checkedAt": "2026-11-11T15:57:54Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -653,7 +656,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-11T00:29:40Z",
+        "checkedAt": "2026-11-11T15:57:54Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
