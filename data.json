@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-11T22:37:25Z",
+    "lastUpdated": "2026-11-12T16:41:18Z",
     "version": 4,
     "seenVacancyIds": [
       "VAC2000055580",
@@ -27,7 +27,7 @@
       "category": "Sales",
       "closingDate": "2026-12-01",
       "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062635",
-      "firstSeen": "2026-11-11"
+      "firstSeen": "2026-11-12"
     },
     {
       "id": "VAC2000062654",
@@ -39,7 +39,7 @@
       "category": "Sales",
       "closingDate": "2026-12-01",
       "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062654",
-      "firstSeen": "2026-11-11"
+      "firstSeen": "2026-11-12"
     },
     {
       "id": "VAC2000062758",
@@ -51,7 +51,7 @@
       "category": "Business",
       "closingDate": null,
       "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062758",
-      "firstSeen": "2026-11-11"
+      "firstSeen": "2026-11-12"
     },
     {
       "id": "VAC2000062769",
@@ -63,7 +63,7 @@
       "category": "Business",
       "closingDate": null,
       "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062769",
-      "firstSeen": "2026-11-11"
+      "firstSeen": "2026-11-12"
     },
     {
       "id": "VAC2000063765",
@@ -75,7 +75,7 @@
       "category": "Business",
       "closingDate": null,
       "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000063765",
-      "firstSeen": "2026-11-11"
+      "firstSeen": "2026-11-12"
     }
   ],
   "companies": [
@@ -150,7 +150,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-11T22:37:08Z",
+        "checkedAt": "2026-11-12T16:41:02Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -248,7 +248,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-11T22:37:11Z",
+        "checkedAt": "2026-11-12T16:41:06Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -310,7 +310,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-11T22:37:12Z",
+        "checkedAt": "2026-11-12T16:41:07Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -372,7 +372,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-11T22:37:14Z",
+        "checkedAt": "2026-11-12T16:41:08Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 5,
@@ -451,7 +451,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-11T22:37:15Z",
+        "checkedAt": "2026-11-12T16:41:09Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -530,7 +530,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-11T22:37:16Z",
+        "checkedAt": "2026-11-12T16:41:10Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -592,7 +592,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-11T22:37:17Z",
+        "checkedAt": "2026-11-12T16:41:11Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -654,7 +654,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-11T22:37:17Z",
+        "checkedAt": "2026-11-12T16:41:12Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
