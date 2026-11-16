@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-15T20:54:32Z",
+    "lastUpdated": "2026-11-16T18:09:56Z",
     "version": 4,
     "seenVacancyIds": [
       "VAC2000055580",
@@ -12,9 +12,16 @@
       "VAC2000062654",
       "VAC2000062758",
       "VAC2000062769",
-      "VAC2000063765"
+      "VAC2000063765",
+      "VAC2000064161",
+      "VAC2000064228",
+      "VAC2000064232"
     ],
-    "newSinceLastScrape": []
+    "newSinceLastScrape": [
+      "VAC2000064161",
+      "VAC2000064228",
+      "VAC2000064232"
+    ]
   },
   "interestListings": [
     {
@@ -27,7 +34,7 @@
       "category": "Sales",
       "closingDate": "2026-12-01",
       "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062635",
-      "firstSeen": "2026-11-15"
+      "firstSeen": "2026-11-16"
     },
     {
       "id": "VAC2000062654",
@@ -39,7 +46,7 @@
       "category": "Sales",
       "closingDate": "2026-12-01",
       "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062654",
-      "firstSeen": "2026-11-15"
+      "firstSeen": "2026-11-16"
     },
     {
       "id": "VAC2000062758",
@@ -51,7 +58,7 @@
       "category": "Business",
       "closingDate": null,
       "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062758",
-      "firstSeen": "2026-11-15"
+      "firstSeen": "2026-11-16"
     },
     {
       "id": "VAC2000062769",
@@ -63,7 +70,7 @@
       "category": "Business",
       "closingDate": "2026-12-15",
       "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062769",
-      "firstSeen": "2026-11-15"
+      "firstSeen": "2026-11-16"
     },
     {
       "id": "VAC2000063765",
@@ -75,7 +82,7 @@
       "category": "Business",
       "closingDate": null,
       "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000063765",
-      "firstSeen": "2026-11-15"
+      "firstSeen": "2026-11-16"
     }
   ],
   "companies": [
@@ -150,7 +157,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-15T20:54:17Z",
+        "checkedAt": "2026-11-16T18:09:39Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -248,7 +255,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-15T20:54:20Z",
+        "checkedAt": "2026-11-16T18:09:43Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -310,7 +317,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-15T20:54:21Z",
+        "checkedAt": "2026-11-16T18:09:44Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -372,7 +379,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-15T20:54:22Z",
+        "checkedAt": "2026-11-16T18:09:45Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 5,
@@ -451,7 +458,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-15T20:54:24Z",
+        "checkedAt": "2026-11-16T18:09:46Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -530,7 +537,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-15T20:54:24Z",
+        "checkedAt": "2026-11-16T18:09:47Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -574,25 +581,59 @@
       ],
       "programs": [
         {
-          "id": "cisco_sales",
-          "name": "Sales Apprenticeship",
+          "id": "VAC2000064161",
+          "name": "Cisco IT Degree Apprentice (Level 6)",
           "standard": "Level 6",
-          "location": "Feltham / London",
+          "location": "Greater London (TW14 8HA)",
           "salary": null,
-          "duration": null,
+          "duration": "",
+          "status": "open",
+          "closingDate": null,
+          "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000064161",
+          "govVacancyId": "VAC2000064161",
+          "firstSeen": "2026-11-16",
+          "lastSeen": "2026-11-16",
+          "customerFacing": "internal",
+          "nameConfidence": "official",
+          "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000064161"
+        },
+        {
+          "id": "VAC2000064228",
+          "name": "Cisco Sales Degree Apprentice (Level 6)",
+          "standard": "Level 6",
+          "location": "Greater London (TW14 8HA)",
+          "salary": null,
+          "duration": "",
+          "status": "open",
+          "closingDate": null,
+          "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000064228",
+          "govVacancyId": "VAC2000064228",
+          "firstSeen": "2026-11-16",
+          "lastSeen": "2026-11-16",
           "customerFacing": "core",
           "nameConfidence": "official",
-          "sourceUrl": "https://uk.prosple.com/graduate-employers/cisco-uk/jobs-internships/sales-apprenticeship",
-          "status": "not_open",
+          "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000064228"
+        },
+        {
+          "id": "VAC2000064232",
+          "name": "Cisco Solutions Engineering Sales Degree Apprentice (Level 6)",
+          "standard": "Level 6",
+          "location": "Greater London (TW14 8HA)",
+          "salary": null,
+          "duration": "",
+          "status": "open",
           "closingDate": null,
-          "applyUrl": null,
-          "govVacancyId": null,
-          "firstSeen": null,
-          "lastSeen": null
+          "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000064232",
+          "govVacancyId": "VAC2000064232",
+          "firstSeen": "2026-11-16",
+          "lastSeen": "2026-11-16",
+          "customerFacing": "core",
+          "nameConfidence": "official",
+          "sourceUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000064232"
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-15T20:54:25Z",
+        "checkedAt": "2026-11-16T18:09:48Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -654,7 +695,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-15T20:54:26Z",
+        "checkedAt": "2026-11-16T18:09:48Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
