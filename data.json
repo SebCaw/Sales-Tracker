@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-20T01:42:37Z",
+    "lastUpdated": "2026-11-20T16:50:10Z",
     "version": 4,
     "seenVacancyIds": [
       "VAC2000055580",
@@ -66,18 +66,6 @@
       "category": "Business",
       "closingDate": "2026-12-15",
       "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000062769",
-      "firstSeen": "2026-11-20"
-    },
-    {
-      "id": "VAC2000063765",
-      "company": "AMAZON UK SERVICES LTD.",
-      "title": "Business Analyst Apprentice  (Fixed Term Contract)",
-      "standard": "Level 6",
-      "location": "Worship Street (EC2A 2FA)",
-      "salary": null,
-      "category": "Business",
-      "closingDate": null,
-      "applyUrl": "https://www.findapprenticeship.service.gov.uk/apprenticeship/VAC2000063765",
       "firstSeen": "2026-11-20"
     }
   ],
@@ -153,7 +141,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-20T01:42:23Z",
+        "checkedAt": "2026-11-20T16:49:52Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -251,7 +239,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-20T01:42:26Z",
+        "checkedAt": "2026-11-20T16:49:55Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -313,7 +301,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-20T01:42:26Z",
+        "checkedAt": "2026-11-20T16:49:55Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -375,7 +363,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-20T01:42:27Z",
+        "checkedAt": "2026-11-20T16:50:01Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 5,
@@ -454,7 +442,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-20T01:42:28Z",
+        "checkedAt": "2026-11-20T16:50:02Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -533,7 +521,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-20T01:42:29Z",
+        "checkedAt": "2026-11-20T16:50:03Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -629,7 +617,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-20T01:42:30Z",
+        "checkedAt": "2026-11-20T16:50:04Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -691,7 +679,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-20T01:42:30Z",
+        "checkedAt": "2026-11-20T16:50:04Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
