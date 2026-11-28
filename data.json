@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-28T02:32:48Z",
+    "lastUpdated": "2026-11-28T16:43:18Z",
     "version": 4,
     "seenVacancyIds": [
       "VAC2000055580",
@@ -141,7 +141,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-28T02:32:31Z",
+        "checkedAt": "2026-11-28T16:43:01Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -239,7 +239,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-28T02:32:34Z",
+        "checkedAt": "2026-11-28T16:43:05Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -301,7 +301,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-28T02:32:35Z",
+        "checkedAt": "2026-11-28T16:43:06Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -363,7 +363,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-28T02:32:36Z",
+        "checkedAt": "2026-11-28T16:43:07Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 5,
@@ -442,7 +442,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-28T02:32:37Z",
+        "checkedAt": "2026-11-28T16:43:08Z",
         "reachable": true,
         "httpStatus": 200,
         "mentions": 0,
@@ -521,12 +521,12 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-28T02:32:38Z",
+        "checkedAt": "2026-11-28T16:43:09Z",
         "reachable": false,
-        "httpStatus": 403,
+        "httpStatus": 404,
         "mentions": 0,
         "openSignal": false,
-        "note": "blocked - check manually in the browser"
+        "note": "careerUrl is dead - needs updating"
       }
     },
     {
@@ -617,7 +617,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-28T02:32:39Z",
+        "checkedAt": "2026-11-28T16:43:10Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
@@ -679,7 +679,7 @@
         }
       ],
       "siteCheck": {
-        "checkedAt": "2026-11-28T02:32:40Z",
+        "checkedAt": "2026-11-28T16:43:11Z",
         "reachable": false,
         "httpStatus": 403,
         "mentions": 0,
